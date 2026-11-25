@@ -237,4 +237,4 @@ The original runner deterministically derives train/development groups using see
 
 See **[docs/Testing.md](docs/Testing.md)** for PASS/FAIL/BLOCKED/NOT RUN results and observed dependencies; **[docs/Source_Selection.md](docs/Source_Selection.md)** for notebook selection; and **[docs/File_Audit.csv](docs/File_Audit.csv)** for original-file decisions. Source availability, successful frozen evaluation and full training reproducibility are reported separately.
 
-Third-party attribution is in `Attribution/CODE_SOURCES.md` and `THIRD_PARTY_NOTICES.md`. Dataset rights are separate from software availability. No additional software licence has been assigned on behalf of the team. AI assistance was used for recovery, packaging, setup documentation and verification; no individual authorship or development contribution is fabricated.
+Third-party attribution is in `Attribution/CODE_SOURCES.md` and `THIRD_PARTY_NOTICES.md`. Dataset rights are separate from software availability. No additional software licence has been assigned on behalf of the team. 
