@@ -1,0 +1,547 @@
+{
+  "scope": "exploratory development only",
+  "positive_class": "fully_cleared",
+  "margin": 0.5,
+  "C": 0.1,
+  "implementation": {
+    "python": "3.14.0",
+    "numpy": "2.5.5",
+    "scikit_learn": "1.9.1",
+    "pillow": "12.2.0"
+  },
+  "real_archive_sha256": "1e97cfe51b4ef7fc9e61aaa7cbd2cbce4ac5a24fd274f07503d7deb5138f0412",
+  "split_sha256": "0ae3ff815747ba5c8c677fb3670c373aecbe9ecf2b4e3bd6b2410450748a3e60",
+  "pair_csv_sha256": "b3c2662f1dbb3ca59758f3c30eabbb4385a6e23b87d52df38527979b90343fe4",
+  "v1_allowlist_sha256": "353b5b6ebc62894c6453bddc95e86d9cbb56bc9ef2e3f0a634582fc4e162efb2",
+  "v1_auxiliary_sha256": [
+    "3ebe53968093b0d3449285610626e36b2510e3af5258e2560e704b6a50971a67",
+    "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+    "5a870a6bc82f0cba4ddd3c16331e833861024713f4ea1a6a17e1305975dd80d2",
+    "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+    "d66cdb1e1e4a64077d2bca3ed7d2577a306689f72acba1e4a409fb9d0a967bbc",
+    "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+    "1abf7e497c3407900d607d734e877b3320e947e86897670b49ad3089dc14c990",
+    "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+    "dd60fa6311383bca632c822d40b95ead785fbe718b106191bdd6d1ce5e4ffc4f",
+    "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+    "02837b30785317f9503bd225db2616a45b0f3476b337c01178ee636db43d835f",
+    "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+    "25caba96755345d923b6cc653a371af28f624a0603d8cde34e2b5b37d94f2a2c",
+    "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+    "17244233036eb12ea81ee1413120d4a0777b0e06581fbf772b2fcf6ac632fbaa",
+    "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+    "c31f99df2cff0542ab9a96fe8e11ba29c840b7ae34d992d40ba18616ae20d2f4",
+    "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+    "504aafb871d54db54dd5db80899fb9a7f98ae93b4e0512e63a666911bcec55ad",
+    "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+    "6d7a68711213dcdc383691f70463c88359442be24cd59e9ffb0bc63dae6339b8",
+    "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725"
+  ],
+  "real_train_pairs": 20,
+  "real_dev_pairs": 8,
+  "test_pairs_opened": 0,
+  "development_majority_reference": {
+    "correct": 6,
+    "total": 8
+  },
+  "arms": {
+    "A_real_only": {
+      "auxiliary_crops": 0,
+      "provisional": {
+        "n": 8,
+        "matrix": [
+          [
+            1,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "accepted": 1,
+        "abstentions": 7,
+        "coverage": 0.125,
+        "accepted_accuracy": 1.0,
+        "fully_cleared_precision": null,
+        "fully_cleared_recall_accepted": null,
+        "fully_cleared_f1_accepted": null,
+        "fully_cleared_recall_all": 0.0,
+        "false_clearance_count": 0,
+        "false_clearance_denominator": 6,
+        "false_clearance_rate": 0.0,
+        "false_alarm_count": 0,
+        "false_alarm_denominator": 2,
+        "false_alarm_rate": 0.0,
+        "abstain_waste_present": 5,
+        "abstain_fully_cleared": 2
+      },
+      "forced_zero": {
+        "n": 8,
+        "matrix": [
+          [
+            5,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "accepted": 8,
+        "abstentions": 0,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.75,
+        "fully_cleared_precision": 0.5,
+        "fully_cleared_recall_accepted": 0.5,
+        "fully_cleared_f1_accepted": 0.5,
+        "fully_cleared_recall_all": 0.5,
+        "false_clearance_count": 1,
+        "false_clearance_denominator": 6,
+        "false_clearance_rate": 0.16666666666666666,
+        "false_alarm_count": 1,
+        "false_alarm_denominator": 2,
+        "false_alarm_rate": 0.5,
+        "abstain_waste_present": 0,
+        "abstain_fully_cleared": 0
+      },
+      "by_location": {
+        "location_02": {
+          "provisional": {
+            "n": 4,
+            "matrix": [
+              [
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 0,
+            "abstentions": 4,
+            "coverage": 0.0,
+            "accepted_accuracy": null,
+            "fully_cleared_precision": null,
+            "fully_cleared_recall_accepted": null,
+            "fully_cleared_f1_accepted": null,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 3,
+            "abstain_fully_cleared": 1
+          },
+          "forced_zero": {
+            "n": 4,
+            "matrix": [
+              [
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 4,
+            "abstentions": 0,
+            "coverage": 1.0,
+            "accepted_accuracy": 1.0,
+            "fully_cleared_precision": 1.0,
+            "fully_cleared_recall_accepted": 1.0,
+            "fully_cleared_f1_accepted": 1.0,
+            "fully_cleared_recall_all": 1.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 0,
+            "abstain_fully_cleared": 0
+          }
+        },
+        "location_08": {
+          "provisional": {
+            "n": 4,
+            "matrix": [
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 1,
+            "abstentions": 3,
+            "coverage": 0.25,
+            "accepted_accuracy": 1.0,
+            "fully_cleared_precision": null,
+            "fully_cleared_recall_accepted": null,
+            "fully_cleared_f1_accepted": null,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 2,
+            "abstain_fully_cleared": 1
+          },
+          "forced_zero": {
+            "n": 4,
+            "matrix": [
+              [
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 4,
+            "abstentions": 0,
+            "coverage": 1.0,
+            "accepted_accuracy": 0.5,
+            "fully_cleared_precision": 0.0,
+            "fully_cleared_recall_accepted": 0.0,
+            "fully_cleared_f1_accepted": 0.0,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 1,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.3333333333333333,
+            "false_alarm_count": 1,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 1.0,
+            "abstain_waste_present": 0,
+            "abstain_fully_cleared": 0
+          }
+        }
+      }
+    },
+    "B_real_plus_V1": {
+      "auxiliary_crops": 22,
+      "provisional": {
+        "n": 8,
+        "matrix": [
+          [
+            1,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "accepted": 1,
+        "abstentions": 7,
+        "coverage": 0.125,
+        "accepted_accuracy": 1.0,
+        "fully_cleared_precision": null,
+        "fully_cleared_recall_accepted": null,
+        "fully_cleared_f1_accepted": null,
+        "fully_cleared_recall_all": 0.0,
+        "false_clearance_count": 0,
+        "false_clearance_denominator": 6,
+        "false_clearance_rate": 0.0,
+        "false_alarm_count": 0,
+        "false_alarm_denominator": 2,
+        "false_alarm_rate": 0.0,
+        "abstain_waste_present": 5,
+        "abstain_fully_cleared": 2
+      },
+      "forced_zero": {
+        "n": 8,
+        "matrix": [
+          [
+            5,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "accepted": 8,
+        "abstentions": 0,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.75,
+        "fully_cleared_precision": 0.5,
+        "fully_cleared_recall_accepted": 0.5,
+        "fully_cleared_f1_accepted": 0.5,
+        "fully_cleared_recall_all": 0.5,
+        "false_clearance_count": 1,
+        "false_clearance_denominator": 6,
+        "false_clearance_rate": 0.16666666666666666,
+        "false_alarm_count": 1,
+        "false_alarm_denominator": 2,
+        "false_alarm_rate": 0.5,
+        "abstain_waste_present": 0,
+        "abstain_fully_cleared": 0
+      },
+      "by_location": {
+        "location_02": {
+          "provisional": {
+            "n": 4,
+            "matrix": [
+              [
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 0,
+            "abstentions": 4,
+            "coverage": 0.0,
+            "accepted_accuracy": null,
+            "fully_cleared_precision": null,
+            "fully_cleared_recall_accepted": null,
+            "fully_cleared_f1_accepted": null,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 3,
+            "abstain_fully_cleared": 1
+          },
+          "forced_zero": {
+            "n": 4,
+            "matrix": [
+              [
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 4,
+            "abstentions": 0,
+            "coverage": 1.0,
+            "accepted_accuracy": 1.0,
+            "fully_cleared_precision": 1.0,
+            "fully_cleared_recall_accepted": 1.0,
+            "fully_cleared_f1_accepted": 1.0,
+            "fully_cleared_recall_all": 1.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 0,
+            "abstain_fully_cleared": 0
+          }
+        },
+        "location_08": {
+          "provisional": {
+            "n": 4,
+            "matrix": [
+              [
+                1,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 1,
+            "abstentions": 3,
+            "coverage": 0.25,
+            "accepted_accuracy": 1.0,
+            "fully_cleared_precision": null,
+            "fully_cleared_recall_accepted": null,
+            "fully_cleared_f1_accepted": null,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 0,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.0,
+            "false_alarm_count": 0,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 0.0,
+            "abstain_waste_present": 2,
+            "abstain_fully_cleared": 1
+          },
+          "forced_zero": {
+            "n": 4,
+            "matrix": [
+              [
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "row_order": [
+              "waste_still_present",
+              "fully_cleared"
+            ],
+            "column_order": [
+              "waste_still_present",
+              "fully_cleared",
+              "abstain"
+            ],
+            "accepted": 4,
+            "abstentions": 0,
+            "coverage": 1.0,
+            "accepted_accuracy": 0.5,
+            "fully_cleared_precision": 0.0,
+            "fully_cleared_recall_accepted": 0.0,
+            "fully_cleared_f1_accepted": 0.0,
+            "fully_cleared_recall_all": 0.0,
+            "false_clearance_count": 1,
+            "false_clearance_denominator": 3,
+            "false_clearance_rate": 0.3333333333333333,
+            "false_alarm_count": 1,
+            "false_alarm_denominator": 1,
+            "false_alarm_rate": 1.0,
+            "abstain_waste_present": 0,
+            "abstain_fully_cleared": 0
+          }
+        }
+      }
+    }
+  }
+}

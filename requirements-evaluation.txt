@@ -1,0 +1,6 @@
+-r requirements.txt
+scikit-learn==1.6.1
+joblib==1.6.0
+matplotlib
+# FFmpeg/FFprobe must be installed separately. Original SVM used sklearn 1.6.1.
+# Original 1.9.1 cross-version runtime is recorded, not guaranteed generally.

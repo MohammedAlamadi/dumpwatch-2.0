@@ -1,0 +1,318 @@
+{
+  "development": {
+    "Image Difference": {
+      "n": 8,
+      "accuracy": 0.75,
+      "macro_f1": 0.42857142857142855,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      }
+    },
+    "Frozen Real Only SVM": {
+      "n": 8,
+      "accuracy": 0.75,
+      "macro_f1": 0.6666666666666667,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "support": 2
+        }
+      }
+    },
+    "Compact MLP": {
+      "n": 8,
+      "accuracy": 0.75,
+      "macro_f1": 0.42857142857142855,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      }
+    },
+    "Training Majority": {
+      "n": 8,
+      "accuracy": 0.75,
+      "macro_f1": 0.42857142857142855,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      }
+    },
+    "Frozen SVM fixed policy": {
+      "n": 8,
+      "accepted": 1,
+      "correct_accepted": 1,
+      "abstained": 7,
+      "coverage": 0.125,
+      "accepted_accuracy": 1.0
+    }
+  },
+  "retrospective": {
+    "Image Difference": {
+      "n": 9,
+      "accuracy": 0.5555555555555556,
+      "macro_f1": 0.35714285714285715,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1": 0.7142857142857143,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      }
+    },
+    "Frozen Real Only SVM": {
+      "n": 9,
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.5846153846153846,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307693,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4,
+          "support": 3
+        }
+      }
+    },
+    "Compact MLP": {
+      "n": 9,
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      }
+    },
+    "Training Majority": {
+      "n": 9,
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "row_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "column_labels": [
+        "waste_still_present",
+        "fully_cleared"
+      ],
+      "matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "classes": {
+        "waste_still_present": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 6
+        },
+        "fully_cleared": {
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      }
+    },
+    "Frozen SVM fixed policy": {
+      "n": 9,
+      "accepted": 4,
+      "correct_accepted": 4,
+      "abstained": 5,
+      "coverage": 0.4444444444444444,
+      "accepted_accuracy": 1.0
+    }
+  }
+}

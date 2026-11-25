@@ -1,0 +1,244 @@
+method,id,event,lighting,time_of_day,actual,prediction,score,reference_onset_s,onset_valid,predicted_onset_s,signed_error_s
+majority,vid0002,normal,high,day,0,1,1.0,-1.0,False,4.75,
+majority,vid0009,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0015,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0019,static dumping,high,day,1,1,1.0,10.0,True,7.0,-3.0
+majority,vid0026,static dumping,high,day,1,1,1.0,11.0,True,7.0,-4.0
+majority,vid0029,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0035,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0042,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0053,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0055,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0059,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0073,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0078,static dumping,high,day,1,1,1.0,4.0,True,7.0,3.0
+majority,vid0096,static dumping,high,day,1,1,1.0,5.0,True,7.0,2.0
+majority,vid0107,dynamic dumping,high,day,1,1,1.0,3.0,True,7.0,4.0
+majority,vid0113,dynamic dumping,high,day,1,1,1.0,6.0,True,7.0,1.0
+majority,vid0125,static dumping,high,day,1,1,1.0,7.0,True,7.0,0.0
+majority,vid0131,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0135,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0144,dynamic dumping,high,day,1,1,1.0,19.0,True,7.0,-12.0
+majority,vid0149,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0152,static dumping,high,day,1,1,1.0,5.0,True,6.75,1.75
+majority,vid0160,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0177,dynamic dumping,high,day,1,1,1.0,7.0,True,7.0,0.0
+majority,vid0179,static dumping,high,night,1,1,1.0,21.0,True,7.0,-14.0
+majority,vid0190,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0201,dynamic dumping,high,day,1,1,1.0,4.0,True,6.0,2.0
+majority,vid0205,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0220,dynamic dumping,low,night,1,1,1.0,8.0,True,7.0,-1.0
+majority,vid0226,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0229,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0235,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0241,static dumping,high,day,1,1,1.0,26.0,True,7.0,-19.0
+majority,vid0243,static dumping,high,day,1,1,1.0,7.0,True,7.0,0.0
+majority,vid0247,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0254,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0261,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0271,static dumping,high,day,1,1,1.0,12.0,True,7.0,-5.0
+majority,vid0272,static dumping,high,day,1,1,1.0,7.0,True,7.0,0.0
+majority,vid0286,dynamic dumping,low,night,1,1,1.0,20.0,True,7.0,-13.0
+majority,vid0292,static dumping,high,day,1,1,1.0,3.0,True,7.0,4.0
+majority,vid0301,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0302,static dumping,high,day,1,1,1.0,13.0,True,7.0,-6.0
+majority,vid0307,dynamic dumping,high,day,1,1,1.0,1.0,True,7.0,6.0
+majority,vid0309,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0311,static dumping,high,day,1,1,1.0,37.0,True,7.0,-30.0
+majority,vid0315,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0316,dynamic dumping,high,day,1,1,1.0,6.0,True,7.0,1.0
+majority,vid0323,static dumping,high,day,1,1,1.0,4.0,True,7.0,3.0
+majority,vid0327,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0337,dynamic dumping,high,day,1,1,1.0,3.0,True,4.5,1.5
+majority,vid0340,static dumping,high,day,1,1,1.0,14.0,True,7.0,-7.0
+majority,vid0343,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0344,dynamic dumping,low,night,1,1,1.0,8.0,True,7.0,-1.0
+majority,vid0350,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0353,dynamic dumping,high,day,1,1,1.0,2.0,True,7.0,5.0
+majority,vid0354,dynamic dumping,high,day,1,1,1.0,18.0,True,7.0,-11.0
+majority,vid0363,static dumping,high,day,1,1,1.0,12.0,True,7.0,-5.0
+majority,vid0372,dynamic dumping,high,day,1,1,1.0,17.0,True,7.0,-10.0
+majority,vid0377,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0381,static dumping,high,day,1,1,1.0,24.0,True,7.0,-17.0
+majority,vid0384,normal,high,day,0,1,1.0,-1.0,False,6.0,
+majority,vid0387,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0392,dynamic dumping,high,day,1,1,1.0,2.0,True,7.0,5.0
+majority,vid0397,dynamic dumping,high,day,1,1,1.0,4.0,True,7.0,3.0
+majority,vid0399,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0410,dynamic dumping,high,day,1,1,1.0,1.0,True,7.0,6.0
+majority,vid0411,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0425,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0427,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0428,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0430,dynamic dumping,high,day,1,1,1.0,4.0,True,7.0,3.0
+majority,vid0438,dynamic dumping,high,day,1,1,1.0,0.0,True,7.0,7.0
+majority,vid0441,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0446,normal,high,day,0,1,1.0,-1.0,False,6.75,
+majority,vid0451,normal,high,day,0,1,1.0,-1.0,False,4.75,
+majority,vid0452,static dumping,high,night,1,1,1.0,13.0,True,7.0,-6.0
+majority,vid0463,normal,high,day,0,1,1.0,-1.0,False,7.0,
+majority,vid0473,static dumping,high,day,1,1,1.0,6.0,True,7.0,1.0
+majority,vid0484,dynamic dumping,high,day,1,1,1.0,6.0,True,7.0,1.0
+majority,vid0497,normal,high,day,0,1,1.0,-1.0,False,7.0,
+motion_svm,vid0002,normal,high,day,0,1,0.9902240176086099,-1.0,False,1.0,
+motion_svm,vid0009,normal,high,day,0,0,-0.8830541927362278,-1.0,False,,
+motion_svm,vid0015,normal,high,day,0,0,-1.0139332423436702,-1.0,False,,
+motion_svm,vid0019,static dumping,high,day,1,1,1.0034573408369851,10.0,True,0.75,-9.25
+motion_svm,vid0026,static dumping,high,day,1,1,0.7854015930328078,11.0,True,1.0,-10.0
+motion_svm,vid0029,normal,high,day,0,1,0.9900699226950651,-1.0,False,25.0,
+motion_svm,vid0035,normal,high,day,0,1,0.46726654165060433,-1.0,False,1.0,
+motion_svm,vid0042,normal,high,day,0,1,0.9855733577383317,-1.0,False,1.5,
+motion_svm,vid0053,normal,high,day,0,1,0.20420209538336342,-1.0,False,2.25,
+motion_svm,vid0055,normal,high,day,0,0,-1.016736198509632,-1.0,False,,
+motion_svm,vid0059,normal,high,day,0,1,0.18367130555734512,-1.0,False,8.25,
+motion_svm,vid0073,normal,high,day,0,1,0.9730845009084335,-1.0,False,15.5,
+motion_svm,vid0078,static dumping,high,day,1,1,0.7268449320553876,4.0,True,3.0,-1.0
+motion_svm,vid0096,static dumping,high,day,1,1,0.967457031716825,5.0,True,1.0,-4.0
+motion_svm,vid0107,dynamic dumping,high,day,1,1,0.4394681620323462,3.0,True,2.25,-0.75
+motion_svm,vid0113,dynamic dumping,high,day,1,1,0.873357275648414,6.0,True,1.0,-5.0
+motion_svm,vid0125,static dumping,high,day,1,1,0.3992583317069276,7.0,True,5.75,-1.25
+motion_svm,vid0131,normal,high,day,0,0,-0.20484278064967065,-1.0,False,,
+motion_svm,vid0135,normal,high,day,0,0,-1.022818137705992,-1.0,False,,
+motion_svm,vid0144,dynamic dumping,high,day,1,1,0.838582136639604,19.0,True,3.25,-15.75
+motion_svm,vid0149,normal,high,day,0,0,-0.18465198664517207,-1.0,False,,
+motion_svm,vid0152,static dumping,high,day,1,1,0.4246704251710822,5.0,True,1.0,-4.0
+motion_svm,vid0160,normal,high,day,0,1,0.9906609626028238,-1.0,False,1.25,
+motion_svm,vid0177,dynamic dumping,high,day,1,1,0.9849269479763161,7.0,True,1.25,-5.75
+motion_svm,vid0179,static dumping,high,night,1,1,0.8169242263811121,21.0,True,1.25,-19.75
+motion_svm,vid0190,normal,high,day,0,0,-0.9910566217886908,-1.0,False,,
+motion_svm,vid0201,dynamic dumping,high,day,1,1,0.9475262375421685,4.0,True,1.25,-2.75
+motion_svm,vid0205,normal,high,day,0,1,0.9809782214900302,-1.0,False,7.75,
+motion_svm,vid0220,dynamic dumping,low,night,1,1,0.8615470321991812,8.0,True,2.25,-5.75
+motion_svm,vid0226,normal,high,day,0,0,-0.8499237994853436,-1.0,False,,
+motion_svm,vid0229,normal,high,day,0,1,0.9847875536761137,-1.0,False,0.75,
+motion_svm,vid0235,normal,high,day,0,0,-0.8162149253750166,-1.0,False,,
+motion_svm,vid0241,static dumping,high,day,1,1,0.5262097398255583,26.0,True,1.5,-24.5
+motion_svm,vid0243,static dumping,high,day,1,1,0.9757195246953421,7.0,True,2.75,-4.25
+motion_svm,vid0247,normal,high,day,0,1,0.8030072097848675,-1.0,False,1.25,
+motion_svm,vid0254,normal,high,day,0,0,-0.26259856949503146,-1.0,False,,
+motion_svm,vid0261,normal,high,day,0,0,-0.9123313717721442,-1.0,False,,
+motion_svm,vid0271,static dumping,high,day,1,1,0.9838903871989841,12.0,True,0.75,-11.25
+motion_svm,vid0272,static dumping,high,day,1,1,0.9736528902480854,7.0,True,1.0,-6.0
+motion_svm,vid0286,dynamic dumping,low,night,1,1,0.9984361511224153,20.0,True,10.75,-9.25
+motion_svm,vid0292,static dumping,high,day,1,1,0.4335700452735949,3.0,True,1.25,-1.75
+motion_svm,vid0301,normal,high,day,0,0,-0.8177840031346802,-1.0,False,,
+motion_svm,vid0302,static dumping,high,day,1,1,0.43077906220381723,13.0,True,8.5,-4.5
+motion_svm,vid0307,dynamic dumping,high,day,1,1,0.9264693555204979,1.0,True,0.75,-0.25
+motion_svm,vid0309,normal,high,day,0,1,0.8747470832107767,-1.0,False,1.0,
+motion_svm,vid0311,static dumping,high,day,1,1,0.9990179011902705,37.0,True,1.25,-35.75
+motion_svm,vid0315,normal,high,day,0,0,-1.0648616416951653,-1.0,False,,
+motion_svm,vid0316,dynamic dumping,high,day,1,1,0.9598398892297091,6.0,True,0.75,-5.25
+motion_svm,vid0323,static dumping,high,day,1,1,0.985051538473547,4.0,True,1.0,-3.0
+motion_svm,vid0327,normal,high,day,0,0,-1.1035828941759966,-1.0,False,,
+motion_svm,vid0337,dynamic dumping,high,day,1,1,0.9429071361618926,3.0,True,0.5,-2.5
+motion_svm,vid0340,static dumping,high,day,1,1,0.9427917139139852,14.0,True,1.25,-12.75
+motion_svm,vid0343,normal,high,day,0,0,-0.6278486210786142,-1.0,False,,
+motion_svm,vid0344,dynamic dumping,low,night,1,1,0.9967626090509525,8.0,True,1.0,-7.0
+motion_svm,vid0350,normal,high,day,0,0,-0.11961592963717527,-1.0,False,,
+motion_svm,vid0353,dynamic dumping,high,day,1,0,-0.5901470962937713,2.0,True,,
+motion_svm,vid0354,dynamic dumping,high,day,1,1,0.1332300300814847,18.0,True,4.5,-13.5
+motion_svm,vid0363,static dumping,high,day,1,1,0.5845652526173275,12.0,True,3.5,-8.5
+motion_svm,vid0372,dynamic dumping,high,day,1,1,1.0095509588380394,17.0,True,1.0,-16.0
+motion_svm,vid0377,normal,high,day,0,1,0.9756815276292263,-1.0,False,0.75,
+motion_svm,vid0381,static dumping,high,day,1,1,1.004836579561204,24.0,True,17.5,-6.5
+motion_svm,vid0384,normal,high,day,0,0,-0.8062724717581327,-1.0,False,,
+motion_svm,vid0387,normal,high,day,0,1,0.377296207399334,-1.0,False,0.75,
+motion_svm,vid0392,dynamic dumping,high,day,1,0,-0.9704468754303355,2.0,True,,
+motion_svm,vid0397,dynamic dumping,high,day,1,1,0.8297674131297508,4.0,True,13.25,9.25
+motion_svm,vid0399,normal,high,day,0,1,0.9802882035082954,-1.0,False,1.0,
+motion_svm,vid0410,dynamic dumping,high,day,1,0,-0.3669405532619905,1.0,True,,
+motion_svm,vid0411,normal,high,day,0,1,0.5903549611071128,-1.0,False,1.0,
+motion_svm,vid0425,normal,high,day,0,1,0.30450584261994973,-1.0,False,58.25,
+motion_svm,vid0427,normal,high,day,0,1,0.996753925901237,-1.0,False,23.25,
+motion_svm,vid0428,normal,high,day,0,1,0.8915802093399654,-1.0,False,4.5,
+motion_svm,vid0430,dynamic dumping,high,day,1,1,0.9635086026002264,4.0,True,1.0,-3.0
+motion_svm,vid0438,dynamic dumping,high,day,1,0,-0.02509267681065175,0.0,True,,
+motion_svm,vid0441,normal,high,day,0,1,0.9467555734266762,-1.0,False,5.25,
+motion_svm,vid0446,normal,high,day,0,1,0.7360939219842306,-1.0,False,6.0,
+motion_svm,vid0451,normal,high,day,0,1,1.007325196493102,-1.0,False,1.5,
+motion_svm,vid0452,static dumping,high,night,1,1,0.9844709688941382,13.0,True,1.0,-12.0
+motion_svm,vid0463,normal,high,day,0,1,0.9836137294789733,-1.0,False,1.0,
+motion_svm,vid0473,static dumping,high,day,1,0,-0.28843909490635045,6.0,True,,
+motion_svm,vid0484,dynamic dumping,high,day,1,1,0.7008795308955684,6.0,True,13.25,7.25
+motion_svm,vid0497,normal,high,day,0,0,-0.9800937644976068,-1.0,False,,
+resnet18_gru,vid0002,normal,high,day,0,0,-1.0161728858947754,-1.0,False,,
+resnet18_gru,vid0009,normal,high,day,0,0,-3.8857338428497314,-1.0,False,,
+resnet18_gru,vid0015,normal,high,day,0,0,-1.958907127380371,-1.0,False,,
+resnet18_gru,vid0019,static dumping,high,day,1,0,-1.8029632568359375,10.0,True,,
+resnet18_gru,vid0026,static dumping,high,day,1,0,-0.7881792783737183,11.0,True,,
+resnet18_gru,vid0029,normal,high,day,0,0,-0.14668723940849304,-1.0,False,,
+resnet18_gru,vid0035,normal,high,day,0,0,-0.8690113425254822,-1.0,False,,
+resnet18_gru,vid0042,normal,high,day,0,1,1.1274023056030273,-1.0,False,11.0,
+resnet18_gru,vid0053,normal,high,day,0,0,-2.371385335922241,-1.0,False,,
+resnet18_gru,vid0055,normal,high,day,0,0,-2.2582430839538574,-1.0,False,,
+resnet18_gru,vid0059,normal,high,day,0,0,-2.7430074214935303,-1.0,False,,
+resnet18_gru,vid0073,normal,high,day,0,0,-2.577303409576416,-1.0,False,,
+resnet18_gru,vid0078,static dumping,high,day,1,1,1.2604858875274658,4.0,True,6.5,2.5
+resnet18_gru,vid0096,static dumping,high,day,1,1,0.5077570676803589,5.0,True,3.25,-1.75
+resnet18_gru,vid0107,dynamic dumping,high,day,1,1,1.7947518825531006,3.0,True,6.25,3.25
+resnet18_gru,vid0113,dynamic dumping,high,day,1,1,1.538651704788208,6.0,True,7.75,1.75
+resnet18_gru,vid0125,static dumping,high,day,1,1,0.9413300156593323,7.0,True,10.25,3.25
+resnet18_gru,vid0131,normal,high,day,0,0,-0.602477490901947,-1.0,False,,
+resnet18_gru,vid0135,normal,high,day,0,0,-2.5279572010040283,-1.0,False,,
+resnet18_gru,vid0144,dynamic dumping,high,day,1,1,1.6814415454864502,19.0,True,13.0,-6.0
+resnet18_gru,vid0149,normal,high,day,0,0,-2.1768555641174316,-1.0,False,,
+resnet18_gru,vid0152,static dumping,high,day,1,0,-1.8794682025909424,5.0,True,,
+resnet18_gru,vid0160,normal,high,day,0,0,-0.6096404790878296,-1.0,False,,
+resnet18_gru,vid0177,dynamic dumping,high,day,1,1,1.0287883281707764,7.0,True,2.25,-4.75
+resnet18_gru,vid0179,static dumping,high,night,1,0,-0.05117607116699219,21.0,True,,
+resnet18_gru,vid0190,normal,high,day,0,0,-2.0068538188934326,-1.0,False,,
+resnet18_gru,vid0201,dynamic dumping,high,day,1,1,0.6641581654548645,4.0,True,2.0,-2.0
+resnet18_gru,vid0205,normal,high,day,0,0,-0.7880756258964539,-1.0,False,,
+resnet18_gru,vid0220,dynamic dumping,low,night,1,1,1.7610259056091309,8.0,True,8.5,0.5
+resnet18_gru,vid0226,normal,high,day,0,0,-1.731316089630127,-1.0,False,,
+resnet18_gru,vid0229,normal,high,day,0,0,-2.0390281677246094,-1.0,False,,
+resnet18_gru,vid0235,normal,high,day,0,0,-2.1963629722595215,-1.0,False,,
+resnet18_gru,vid0241,static dumping,high,day,1,0,-2.4976487159729004,26.0,True,,
+resnet18_gru,vid0243,static dumping,high,day,1,1,1.3830509185791016,7.0,True,8.25,1.25
+resnet18_gru,vid0247,normal,high,day,0,0,-0.2231152057647705,-1.0,False,,
+resnet18_gru,vid0254,normal,high,day,0,0,-2.4037580490112305,-1.0,False,,
+resnet18_gru,vid0261,normal,high,day,0,0,-1.5741803646087646,-1.0,False,,
+resnet18_gru,vid0271,static dumping,high,day,1,1,0.5539385676383972,12.0,True,16.75,4.75
+resnet18_gru,vid0272,static dumping,high,day,1,1,1.2863578796386719,7.0,True,10.25,3.25
+resnet18_gru,vid0286,dynamic dumping,low,night,1,1,2.562717914581299,20.0,True,8.0,-12.0
+resnet18_gru,vid0292,static dumping,high,day,1,1,0.8801529407501221,3.0,True,7.5,4.5
+resnet18_gru,vid0301,normal,high,day,0,0,-1.3959777355194092,-1.0,False,,
+resnet18_gru,vid0302,static dumping,high,day,1,1,1.2755162715911865,13.0,True,11.75,-1.25
+resnet18_gru,vid0307,dynamic dumping,high,day,1,1,0.32099029421806335,1.0,True,11.0,10.0
+resnet18_gru,vid0309,normal,high,day,0,0,-1.7998685836791992,-1.0,False,,
+resnet18_gru,vid0311,static dumping,high,day,1,1,0.10589364171028137,37.0,True,40.0,3.0
+resnet18_gru,vid0315,normal,high,day,0,1,1.2043988704681396,-1.0,False,5.5,
+resnet18_gru,vid0316,dynamic dumping,high,day,1,1,2.246657609939575,6.0,True,6.25,0.25
+resnet18_gru,vid0323,static dumping,high,day,1,1,2.668225049972534,4.0,True,7.0,3.0
+resnet18_gru,vid0327,normal,high,day,0,0,-0.279708594083786,-1.0,False,,
+resnet18_gru,vid0337,dynamic dumping,high,day,1,1,2.0844454765319824,3.0,True,4.25,1.25
+resnet18_gru,vid0340,static dumping,high,day,1,1,0.6066119074821472,14.0,True,15.25,1.25
+resnet18_gru,vid0343,normal,high,day,0,0,-2.481961250305176,-1.0,False,,
+resnet18_gru,vid0344,dynamic dumping,low,night,1,1,2.464184284210205,8.0,True,5.75,-2.25
+resnet18_gru,vid0350,normal,high,day,0,0,-1.611396074295044,-1.0,False,,
+resnet18_gru,vid0353,dynamic dumping,high,day,1,1,2.493560552597046,2.0,True,4.25,2.25
+resnet18_gru,vid0354,dynamic dumping,high,day,1,1,1.1511070728302002,18.0,True,18.0,0.0
+resnet18_gru,vid0363,static dumping,high,day,1,0,-1.7710168361663818,12.0,True,,
+resnet18_gru,vid0372,dynamic dumping,high,day,1,1,2.217176914215088,17.0,True,25.5,8.5
+resnet18_gru,vid0377,normal,high,day,0,0,-0.6214596629142761,-1.0,False,,
+resnet18_gru,vid0381,static dumping,high,day,1,1,0.3073127269744873,24.0,True,23.0,-1.0
+resnet18_gru,vid0384,normal,high,day,0,0,-1.6678199768066406,-1.0,False,,
+resnet18_gru,vid0387,normal,high,day,0,0,-0.8133199214935303,-1.0,False,,
+resnet18_gru,vid0392,dynamic dumping,high,day,1,1,2.0138564109802246,2.0,True,3.25,1.25
+resnet18_gru,vid0397,dynamic dumping,high,day,1,1,0.3791482150554657,4.0,True,10.5,6.5
+resnet18_gru,vid0399,normal,high,day,0,0,-2.1575522422790527,-1.0,False,,
+resnet18_gru,vid0410,dynamic dumping,high,day,1,1,1.4901623725891113,1.0,True,2.5,1.5
+resnet18_gru,vid0411,normal,high,day,0,0,-0.5927440524101257,-1.0,False,,
+resnet18_gru,vid0425,normal,high,day,0,0,-2.3235793113708496,-1.0,False,,
+resnet18_gru,vid0427,normal,high,day,0,0,-2.2976198196411133,-1.0,False,,
+resnet18_gru,vid0428,normal,high,day,0,0,-1.724839210510254,-1.0,False,,
+resnet18_gru,vid0430,dynamic dumping,high,day,1,1,2.9273180961608887,4.0,True,6.25,2.25
+resnet18_gru,vid0438,dynamic dumping,high,day,1,1,1.2911651134490967,0.0,True,18.5,18.5
+resnet18_gru,vid0441,normal,high,day,0,0,-1.909590244293213,-1.0,False,,
+resnet18_gru,vid0446,normal,high,day,0,1,2.464860439300537,-1.0,False,5.25,
+resnet18_gru,vid0451,normal,high,day,0,0,-2.719679594039917,-1.0,False,,
+resnet18_gru,vid0452,static dumping,high,night,1,1,0.8662108778953552,13.0,True,19.5,6.5
+resnet18_gru,vid0463,normal,high,day,0,0,-2.1723880767822266,-1.0,False,,
+resnet18_gru,vid0473,static dumping,high,day,1,0,-0.38416141271591187,6.0,True,,
+resnet18_gru,vid0484,dynamic dumping,high,day,1,1,1.7897677421569824,6.0,True,8.75,2.75
+resnet18_gru,vid0497,normal,high,day,0,0,-3.013819694519043,-1.0,False,,

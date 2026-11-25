@@ -1,0 +1,546 @@
+[
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "02_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.07451131939888
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "02_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.469285203978127
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "02_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.4363392428413266
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "02_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "02_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": 0.107421875
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "02_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "fully_cleared",
+    "score": 0.25779239782648633
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "02_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -1.6290171400445501
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "02_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "02_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.07753244787454605
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "02_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.1282050430765192
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "02_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.59830486226987
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "02_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "02_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.14108359813690186
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "02_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.29814817487423817
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "02_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.674791925605179
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "02_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "08_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.07647529989480972
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "08_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "fully_cleared",
+    "score": 0.1827298235123848
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "08_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.1128326933706545
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "08_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "08_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": 0.08203843981027603
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "08_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -0.18830047866791383
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "08_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -1.1639324755928806
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "08_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "08_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.08899899572134018
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "08_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.7460899329975716
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "08_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.3124566206962678
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "08_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "development",
+    "method": "Image Difference",
+    "pair_id": "08_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.09117718786001205
+  },
+  {
+    "partition": "development",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "08_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.48482295302446277
+  },
+  {
+    "partition": "development",
+    "method": "Compact MLP",
+    "pair_id": "08_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.3373526451584667
+  },
+  {
+    "partition": "development",
+    "method": "Training Majority",
+    "pair_id": "08_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "04_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.09623688459396362
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "04_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.2633423094825345
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "04_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.6536529050666327
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "04_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "04_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "fully_cleared",
+    "score": 0.14782100915908813
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "04_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.14321844427997457
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "04_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.952552641849759
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "04_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "04_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.10355839133262634
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "04_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.8000499082260201
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "04_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.6911853625157205
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "04_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.07790974527597427
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.3236789206658604
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.267569061402565
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_01_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": 0.04329235479235649
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -0.3247817486931406
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -0.617672673588129
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_01_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.11749410629272461
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "fully_cleared",
+    "score": 0.19661023419046406
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.7827701584297403
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_02_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_02_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": 0.05547872185707092
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_02_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -0.23088716799722875
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_02_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -1.4667881725659555
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_02_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": 0.11388186365365982
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -0.604623641190551
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": -1.3897803821237864
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_03_A_partial",
+    "truth": "waste_still_present",
+    "prediction": "waste_still_present",
+    "score": null
+  },
+  {
+    "partition": "retrospective",
+    "method": "Image Difference",
+    "pair_id": "10_03_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": 0.1359255313873291
+  },
+  {
+    "partition": "retrospective",
+    "method": "Frozen Real Only SVM",
+    "pair_id": "10_03_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "fully_cleared",
+    "score": 0.597543908990267
+  },
+  {
+    "partition": "retrospective",
+    "method": "Compact MLP",
+    "pair_id": "10_03_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": -1.376030946697496
+  },
+  {
+    "partition": "retrospective",
+    "method": "Training Majority",
+    "pair_id": "10_03_A_removed",
+    "truth": "fully_cleared",
+    "prediction": "waste_still_present",
+    "score": null
+  }
+]

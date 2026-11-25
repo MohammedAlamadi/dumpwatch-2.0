@@ -1,0 +1,9 @@
+pair_id,location,truth,score,fixed_prediction,forced_diagnostic_prediction
+02_01_A_partial,location_02,waste_still_present,-0.4692852039781269,abstain,waste_still_present
+02_01_A_removed,location_02,fully_cleared,0.25779239782648644,abstain,fully_cleared
+02_02_A_partial,location_02,waste_still_present,-0.12820504307651895,abstain,waste_still_present
+02_03_A_partial,location_02,waste_still_present,-0.29814817487423817,abstain,waste_still_present
+08_01_A_partial,location_08,waste_still_present,0.18272982351238456,abstain,fully_cleared
+08_01_A_removed,location_08,fully_cleared,-0.18830047866791405,abstain,waste_still_present
+08_02_A_partial,location_08,waste_still_present,-0.7460899329975716,waste_still_present,waste_still_present
+08_03_A_partial,location_08,waste_still_present,-0.484822953024463,abstain,waste_still_present

@@ -1,0 +1,55 @@
+{
+  "task_a": {
+    "videos_verified": 500,
+    "annotation_labels_verified": 500,
+    "video_bytes": 2215376991,
+    "classes_by_split": {
+      "train": {
+        "dumping": 160,
+        "no_dumping": 159
+      },
+      "development": {
+        "no_dumping": 41,
+        "dumping": 40
+      },
+      "holdout": {
+        "no_dumping": 50,
+        "dumping": 50
+      }
+    },
+    "scene_groups_disjoint_train_development": true,
+    "unique_file_hashes": 500,
+    "possible_train_holdout_scene_pairs": 66,
+    "holdout_clips_in_possible_scene_pairs": 28,
+    "verified_unseen_camera_split": false
+  },
+  "task_b": {
+    "real_jpegs_verified": 149,
+    "archive_bytes": 29169726,
+    "classes_by_split": {
+      "training": {
+        "waste_still_present": 14,
+        "fully_cleared": 6
+      },
+      "development": {
+        "waste_still_present": 6,
+        "fully_cleared": 2
+      },
+      "test": {
+        "waste_still_present": 6,
+        "fully_cleared": 3
+      }
+    },
+    "location_disjoint": true,
+    "exact_image_hashes_disjoint": true,
+    "selected_synthetic_source_files_verified": 33,
+    "shared_case_or_view_independence_not_claimed": true
+  },
+  "permissions": {
+    "task_b_academic_use_and_private_marking_copy": "Owner explicitly confirmed 24 November 2026; no public sharing authorised",
+    "task_a_academic_use_basis": "Official public scientific benchmark, requested citations, owner confirms academic-only use",
+    "task_a_public_redistribution": "Not performed or required for this code package",
+    "independent_grader_download": "Exact full source retrieval/handoff still needs confirmation"
+  },
+  "source": "Counts computed from unchanged packaged manifests; raw file and annotation checks performed against configured original inputs."
+}

@@ -1,0 +1,17 @@
+# HISTORICAL OBSERVED RUNTIME ONLY; not the public quick-start installation file.
+# The original local vendor directory is NOT included in this public repository.
+# Follow README.md and requirements-evaluation.txt for setup and compatibility limits.
+# Observed local frozen-evaluation runtime: Windows x64 CPython 3.14.
+# A clean installation from this file has not been demonstrated.
+# The original SVM is sklearn 1.6.1; 1.9.1 emits a version warning.
+# Full-output comparison receipt, rather than general cross-version support, is the evidence.
+numpy==2.5.5
+Pillow==12.2.0
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.8.0
+torch==2.12.1
+# project_setup.py selects existing Demo/vendor torchvision 0.27.1+cpu on Windows CPython 3.14.
+# Do not install a second torchvision into that same environment.
+# FFmpeg and FFprobe must be installed separately and available on PATH.

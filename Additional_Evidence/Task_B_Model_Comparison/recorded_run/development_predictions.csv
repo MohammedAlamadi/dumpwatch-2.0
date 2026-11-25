@@ -1,0 +1,33 @@
+partition,pair_id,location,case,inspection_stage,truth,method,score,prediction,fixed_svm_prediction
+development,02_01_A_partial,location_02,case_01_small,A_partial,waste_still_present,Image Difference,0.07451131939888,waste_still_present,
+development,02_01_A_partial,location_02,case_01_small,A_partial,waste_still_present,Frozen Real Only SVM,-0.4692852039781269,waste_still_present,abstain
+development,02_01_A_partial,location_02,case_01_small,A_partial,waste_still_present,Compact MLP,-1.4363392428413266,waste_still_present,
+development,02_01_A_partial,location_02,case_01_small,A_partial,waste_still_present,Training Majority,,waste_still_present,
+development,02_01_A_removed,location_02,case_01_small,A_removed,fully_cleared,Image Difference,0.107421875,waste_still_present,
+development,02_01_A_removed,location_02,case_01_small,A_removed,fully_cleared,Frozen Real Only SVM,0.25779239782648644,fully_cleared,abstain
+development,02_01_A_removed,location_02,case_01_small,A_removed,fully_cleared,Compact MLP,-1.6290171400445501,waste_still_present,
+development,02_01_A_removed,location_02,case_01_small,A_removed,fully_cleared,Training Majority,,waste_still_present,
+development,02_02_A_partial,location_02,case_02_medium,A_partial,waste_still_present,Image Difference,0.07753244787454605,waste_still_present,
+development,02_02_A_partial,location_02,case_02_medium,A_partial,waste_still_present,Frozen Real Only SVM,-0.12820504307651895,waste_still_present,abstain
+development,02_02_A_partial,location_02,case_02_medium,A_partial,waste_still_present,Compact MLP,-1.5983048622698697,waste_still_present,
+development,02_02_A_partial,location_02,case_02_medium,A_partial,waste_still_present,Training Majority,,waste_still_present,
+development,02_03_A_partial,location_02,case_03_large,A_partial,waste_still_present,Image Difference,0.14108359813690186,waste_still_present,
+development,02_03_A_partial,location_02,case_03_large,A_partial,waste_still_present,Frozen Real Only SVM,-0.29814817487423817,waste_still_present,abstain
+development,02_03_A_partial,location_02,case_03_large,A_partial,waste_still_present,Compact MLP,-1.674791925605179,waste_still_present,
+development,02_03_A_partial,location_02,case_03_large,A_partial,waste_still_present,Training Majority,,waste_still_present,
+development,08_01_A_partial,location_08,case_01_small,A_partial,waste_still_present,Image Difference,0.07647529989480972,waste_still_present,
+development,08_01_A_partial,location_08,case_01_small,A_partial,waste_still_present,Frozen Real Only SVM,0.18272982351238456,fully_cleared,abstain
+development,08_01_A_partial,location_08,case_01_small,A_partial,waste_still_present,Compact MLP,-1.1128326933706545,waste_still_present,
+development,08_01_A_partial,location_08,case_01_small,A_partial,waste_still_present,Training Majority,,waste_still_present,
+development,08_01_A_removed,location_08,case_01_small,A_removed,fully_cleared,Image Difference,0.08203843981027603,waste_still_present,
+development,08_01_A_removed,location_08,case_01_small,A_removed,fully_cleared,Frozen Real Only SVM,-0.18830047866791405,waste_still_present,abstain
+development,08_01_A_removed,location_08,case_01_small,A_removed,fully_cleared,Compact MLP,-1.1639324755928806,waste_still_present,
+development,08_01_A_removed,location_08,case_01_small,A_removed,fully_cleared,Training Majority,,waste_still_present,
+development,08_02_A_partial,location_08,case_02_medium,A_partial,waste_still_present,Image Difference,0.08899899572134018,waste_still_present,
+development,08_02_A_partial,location_08,case_02_medium,A_partial,waste_still_present,Frozen Real Only SVM,-0.7460899329975716,waste_still_present,waste_still_present
+development,08_02_A_partial,location_08,case_02_medium,A_partial,waste_still_present,Compact MLP,-1.3124566206962678,waste_still_present,
+development,08_02_A_partial,location_08,case_02_medium,A_partial,waste_still_present,Training Majority,,waste_still_present,
+development,08_03_A_partial,location_08,case_03_large,A_partial,waste_still_present,Image Difference,0.09117718786001205,waste_still_present,
+development,08_03_A_partial,location_08,case_03_large,A_partial,waste_still_present,Frozen Real Only SVM,-0.484822953024463,waste_still_present,abstain
+development,08_03_A_partial,location_08,case_03_large,A_partial,waste_still_present,Compact MLP,-1.3373526451584667,waste_still_present,
+development,08_03_A_partial,location_08,case_03_large,A_partial,waste_still_present,Training Majority,,waste_still_present,

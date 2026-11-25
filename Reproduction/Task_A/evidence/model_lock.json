@@ -1,0 +1,22 @@
+{
+  "majority": 1,
+  "median_onset": 7.0,
+  "svm_C": 0.1,
+  "svm_development_grid": {
+    "0.1": 0.6383928571428572,
+    "1.0": 0.6134605891064671,
+    "10.0": 0.6164772727272727
+  },
+  "classification_threshold": 0,
+  "event_window": [
+    -5,
+    10
+  ],
+  "mode": "full",
+  "gru_selected_epoch": 6,
+  "locked_files": {
+    "gru.pt": "0e96cfb5077dc00707a1e7bbf53d7dde6d99671d661d46d46f96847c9901c263",
+    "split.csv": "9158d9e207f87abda8343b756a56ba8535ba3bccfd09e04362b11d9c6af6c218",
+    "motion_svm.joblib": "0476c03705a71aad397249e7cf02c09e86be6a15ef3fbef04685f483891963aa"
+  }
+}

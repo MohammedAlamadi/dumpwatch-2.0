@@ -1,0 +1,16 @@
+{
+  "seed": 114,
+  "fps": 4,
+  "device": "cuda",
+  "mode": "full",
+  "weights": "ResNet18 IMAGENET1K_V1",
+  "invalid_onset": "vid0481",
+  "packages": {
+    "numpy": "2.4.6",
+    "Pillow": "11.3.0",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130"
+  }
+}

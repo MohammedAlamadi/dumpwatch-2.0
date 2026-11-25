@@ -1,0 +1,310 @@
+{
+  "real": {
+    "location_inventory": [
+      {
+        "location_id": "location_01",
+        "split": "train",
+        "file_count": 21,
+        "semantic_counts": {
+          "B0": 2,
+          "A_remains": 1,
+          "A_removed": 4,
+          "W": 9,
+          "A_partial": 5
+        },
+        "missing_case_stages": "small A_partial"
+      },
+      {
+        "location_id": "location_02",
+        "split": "validation",
+        "file_count": 11,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 3,
+          "A_removed": 3,
+          "W": 4
+        },
+        "missing_case_stages": ""
+      },
+      {
+        "location_id": "location_03",
+        "split": "train",
+        "file_count": 17,
+        "semantic_counts": {
+          "B0": 1,
+          "A_remains": 1,
+          "W": 8,
+          "A_partial": 5,
+          "A_removed": 2
+        },
+        "missing_case_stages": "small A_partial | small A_removed"
+      },
+      {
+        "location_id": "location_04",
+        "split": "test",
+        "file_count": 13,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 4,
+          "A_removed": 3,
+          "W": 5
+        },
+        "missing_case_stages": ""
+      },
+      {
+        "location_id": "location_05",
+        "split": "train",
+        "file_count": 11,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 4,
+          "W": 6
+        },
+        "missing_case_stages": "small A_removed | medium A_removed | large A_removed"
+      },
+      {
+        "location_id": "location_06",
+        "split": "train",
+        "file_count": 15,
+        "semantic_counts": {
+          "B0": 2,
+          "A_remains": 1,
+          "W": 6,
+          "A_partial": 4,
+          "A_removed": 2
+        },
+        "missing_case_stages": "small A_partial | small A_removed"
+      },
+      {
+        "location_id": "location_07",
+        "split": "train",
+        "file_count": 11,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 3,
+          "A_removed": 3,
+          "W": 4
+        },
+        "missing_case_stages": ""
+      },
+      {
+        "location_id": "location_08",
+        "split": "validation",
+        "file_count": 21,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 8,
+          "A_removed": 3,
+          "W": 9
+        },
+        "missing_case_stages": ""
+      },
+      {
+        "location_id": "location_09",
+        "split": "train",
+        "file_count": 9,
+        "semantic_counts": {
+          "B0": 1,
+          "A_remains": 1,
+          "W": 3,
+          "A_partial": 2,
+          "A_removed": 2
+        },
+        "missing_case_stages": "small A_partial | small A_removed"
+      },
+      {
+        "location_id": "location_10",
+        "split": "test",
+        "file_count": 20,
+        "semantic_counts": {
+          "B0": 1,
+          "A_partial": 8,
+          "A_removed": 4,
+          "W": 7
+        },
+        "missing_case_stages": ""
+      }
+    ],
+    "split_counts": {
+      "train": 84,
+      "validation": 32,
+      "test": 33
+    },
+    "test_image_members_opened": 0,
+    "source_archive_sha256": "1e97cfe51b4ef7fc9e61aaa7cbd2cbce4ac5a24fd274f07503d7deb5138f0412",
+    "real_train_development_image_members_checked": 116
+  },
+  "synthetic": {
+    "locations": 11,
+    "numbered_cases": 88,
+    "image_files": 363,
+    "distinct_byte_hashes": 133,
+    "distinct_decoded_pixel_hashes": 133,
+    "outcomes": {
+      "A_remains": 88,
+      "A_partial": 88,
+      "A_removed": 88
+    },
+    "distinct_partial_hashes": 45,
+    "partial_hashes_also_W": 11,
+    "composition_counts": {
+      "black_bag_dominant": 16,
+      "mixed_bag_and_box": 29,
+      "white_light_bag_dominant": 9,
+      "flattened_carton_dominant": 13,
+      "shopping_sack_bag_dominant": 8,
+      "loose_litter_dominant": 8,
+      "cardboard_box_dominant": 4,
+      "bulky_item_dominant": 1
+    },
+    "split": "synthetic_train_only",
+    "copied_controls": 176
+  },
+  "baselines": {
+    "exact_pixel": {
+      "correct": 264,
+      "total": 264,
+      "accuracy": 1.0,
+      "confusion": [
+        [
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          88,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          88,
+          0
+        ]
+      ],
+      "truth_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed"
+      ],
+      "prediction_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed",
+        "ambiguous"
+      ]
+    },
+    "similarity_005": {
+      "correct": 263,
+      "total": 264,
+      "accuracy": 0.9962121212121212,
+      "confusion": [
+        [
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          87,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          88,
+          0
+        ]
+      ],
+      "truth_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed"
+      ],
+      "prediction_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed",
+        "ambiguous"
+      ]
+    },
+    "similarity_010": {
+      "correct": 261,
+      "total": 264,
+      "accuracy": 0.9886363636363636,
+      "confusion": [
+        [
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          85,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          88,
+          0
+        ]
+      ],
+      "truth_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed"
+      ],
+      "prediction_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed",
+        "ambiguous"
+      ]
+    },
+    "similarity_020": {
+      "correct": 251,
+      "total": 264,
+      "accuracy": 0.9507575757575758,
+      "confusion": [
+        [
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          75,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          88,
+          0
+        ]
+      ],
+      "truth_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed"
+      ],
+      "prediction_order": [
+        "A_remains",
+        "A_partial",
+        "A_removed",
+        "ambiguous"
+      ]
+    }
+  },
+  "majority_control_accuracy": 0.3333333333333333
+}

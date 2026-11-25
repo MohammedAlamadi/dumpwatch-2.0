@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "1e97cfe51b4ef7fc9e61aaa7cbd2cbce4ac5a24fd274f07503d7deb5138f0412",
+  "stage": "before any model predictions",
+  "files_audited": 33,
+  "test_pair_inventory_sha256": "c44ce60a76f51bbcb19873499b27ee3cb4a3adc96326b2455dc87d77edbae004",
+  "class_counts": {
+    "waste_still_present": 6,
+    "fully_cleared": 3
+  },
+  "per_location": {
+    "location_04": 3,
+    "location_10": 6
+  },
+  "exact_file_or_decoded_overlap_with_train_development": 0,
+  "near_inspection_candidates_dhash_5_bits": [
+    [
+      "10_02_A_removed",
+      "10_03_A_removed",
+      2
+    ]
+  ],
+  "distinct_W_references": 8,
+  "distinct_test_cases": 6,
+  "exclusions": [
+    "Location 04 photo_58 is an identical file across all three cases; no uniquely confirmed association. Exclude the three retirement-stage slots.",
+    "Unselected alternate angles and B0 references provide no extra inspection observations."
+  ],
+  "dependence": "Keep all cases and near-view images grouped by physical site. Distinct hashes do not demonstrate independent incidents."
+}

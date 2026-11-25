@@ -1,0 +1,16 @@
+{
+  "model_sha256": "baf37c38590889ececc1c41878b30e6f6e92b5989ac8da5c2d3008d0c6f681e4",
+  "archive_sha256": "1e97cfe51b4ef7fc9e61aaa7cbd2cbce4ac5a24fd274f07503d7deb5138f0412",
+  "evidence_sha256": {
+    "real_location_split.csv": "0ae3ff815747ba5c8c677fb3670c373aecbe9ecf2b4e3bd6b2410450748a3e60",
+    "frozen_train_development_pair_inventory.csv": "bdbb8bca0ce9d8daf398f2ac613090ac2a39be570d05f620733e5ff40c283469",
+    "frozen_test_pair_inventory.csv": "c44ce60a76f51bbcb19873499b27ee3cb4a3adc96326b2455dc87d77edbae004",
+    "frozen_test_inventory_lock.json": "62b32e7b45cc49cb2f6eefbb0aa1ce1c24dec9e0ead6bb002340a7c17a8c950f",
+    "frozen_real_only_svm.json": "b6bc6391b3af0e7ea2999e0702876c1afa980f51f83470fcce4238b430f0b6b5",
+    "original_development_replay.csv": "32854527bb71747534f99ae8d2f138b2ab12608a81794bf5fce5e756572fad54",
+    "results/final_test_predictions.csv": "1118bba88e9ea85e0f55b8254fca17d8d0d738473c0c360d97c53de4cd75fef8"
+  },
+  "utc": "2026-11-21T10:53:29.701811+00:00",
+  "holdout_enabled": true,
+  "scope": "Previously evaluated holdout. No new model selection."
+}

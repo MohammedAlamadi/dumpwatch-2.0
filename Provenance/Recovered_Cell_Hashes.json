@@ -1,0 +1,98 @@
+[
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-final-preparation\\dumpwatch_task_b_final_frozen.ipynb",
+    "destination": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "cell": 4,
+    "sha256": "ffca4870f5db431ccf862b6bb86b466dd4c73ef74cc0502005dad812428cb6f7"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-final-preparation\\dumpwatch_task_b_final_frozen.ipynb",
+    "destination": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "cell": 5,
+    "sha256": "379a30c72c75093627cac3f564be3daa2c98c5e4f54a93f1271c3d90dde5ce28"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-final-preparation\\dumpwatch_task_b_final_frozen.ipynb",
+    "destination": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "cell": 6,
+    "sha256": "a266429625d92bcbb50760e998601878bec68cc7dd3cbfa00d978a0c8cad215a"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-final-preparation\\dumpwatch_task_b_final_frozen.ipynb",
+    "destination": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "cell": 7,
+    "sha256": "3e57cec2ba330a9aa6c82c17ebe09d898a3ac11cc04148d3738536495a276ced"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-final-preparation\\dumpwatch_task_b_final_frozen.ipynb",
+    "destination": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "cell": 9,
+    "sha256": "eabfd8592697f5d1b7132008dbcf815ffceeb0a72e83d6b439ba92eec78d4cb2"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-exploratory\\dumpwatch_task_b_exploratory.ipynb",
+    "destination": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "cell": 4,
+    "sha256": "ffca4870f5db431ccf862b6bb86b466dd4c73ef74cc0502005dad812428cb6f7"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-exploratory\\dumpwatch_task_b_exploratory.ipynb",
+    "destination": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "cell": 5,
+    "sha256": "c841802060089e9f02fd0a1e108298e7341b580796c40fe33eab7cf37f9d4c37"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-exploratory\\dumpwatch_task_b_exploratory.ipynb",
+    "destination": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "cell": 7,
+    "sha256": "5c8b259031c60e4e02cd088ea0bc900f74b5641f09dfb60aca3d3ea3a42e5939"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-exploratory\\dumpwatch_task_b_exploratory.ipynb",
+    "destination": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "cell": 9,
+    "sha256": "5c115ce87adfa56b5012b5145c913f840c6ecce3b17212b8e1b75d5ab55a63ae"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-exploratory\\dumpwatch_task_b_exploratory.ipynb",
+    "destination": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "cell": 11,
+    "sha256": "9a2ca9cb95526a5ac2ac72155005b5a024ea01d20497a0c64fec8d0faab2db6c"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 3,
+    "sha256": "ffca4870f5db431ccf862b6bb86b466dd4c73ef74cc0502005dad812428cb6f7"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 4,
+    "sha256": "c841802060089e9f02fd0a1e108298e7341b580796c40fe33eab7cf37f9d4c37"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 5,
+    "sha256": "5c8b259031c60e4e02cd088ea0bc900f74b5641f09dfb60aca3d3ea3a42e5939"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 7,
+    "sha256": "e65923f530e307d48c47a8b836e35088adc421d5e617c8db5b789981f90aaf07"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 8,
+    "sha256": "2139da156aeb6cf7a0e3cb66a9bc79a6a08bfb31f481c720b693df7d02969d4c"
+  },
+  {
+    "source": "<LOCAL_USER>\\Documents\\Codex\\2026-11-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\task-b-svm-improved\\dumpwatch_task_b_local_comparison.ipynb",
+    "destination": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "cell": 9,
+    "sha256": "b94ec61b9ccdf8366c532fc448b3c041a8694e9f27e5f3ea403202eacd694966"
+  }
+]

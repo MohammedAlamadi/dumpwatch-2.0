@@ -1,0 +1,1 @@
+Verified archived Task B submission checksums, model lock, exact SVM score replay by pair ID, comparison counts and macro-F1 from prediction CSVs, notebook syntax/schema, and report links. No additional scoring run performed.

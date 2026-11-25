@@ -1,0 +1,5380 @@
+{
+  "dataset": "DumpWatch Synthetic Dataset V1",
+  "root_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+  "synthetic_only": true,
+  "case_count": 88,
+  "archived_png_count": 363,
+  "excluded_paths": [
+    "location 3/scenarios/L3_W_deposited.png",
+    "location 3/scenarios/L3_A_remains.png",
+    "location 3/scenarios/L3_A_partial.png",
+    "location 3/scenarios/L3_A_removed.png"
+  ],
+  "location_linkage": [
+    [
+      "location 1",
+      "location 2"
+    ]
+  ],
+  "baselines": {
+    "location 1": {
+      "path": "location 1/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 14488657,
+      "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8"
+    },
+    "location 2": {
+      "path": "location 2/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 10635686,
+      "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228"
+    },
+    "location 3": {
+      "path": "location 3/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 12875974,
+      "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0"
+    },
+    "location 4": {
+      "path": "location 4/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 10504719,
+      "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9"
+    },
+    "location 5": {
+      "path": "location 5/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 18823146,
+      "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036"
+    },
+    "location 6": {
+      "path": "location 6/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 12268270,
+      "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096"
+    },
+    "location 7": {
+      "path": "location 7/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 10613459,
+      "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535"
+    },
+    "location 8": {
+      "path": "location 8/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 10749872,
+      "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde"
+    },
+    "location 9": {
+      "path": "location 9/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 16229190,
+      "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7"
+    },
+    "location 10": {
+      "path": "location 10/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 11892436,
+      "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d"
+    },
+    "location 11": {
+      "path": "location 11/scenarios/B0_reference.png",
+      "drive_id": "[PRIVATE_REFERENCE_REMOVED]",
+      "size": 10583089,
+      "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725"
+    }
+  },
+  "cases": [
+    {
+      "location": "location 1",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L01C001O01",
+          "L01C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C001O01",
+          "L01C001O02"
+        ],
+        "partial": [
+          "L01C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_001/W_deposited.png",
+          "size": 14537382,
+          "sha256": "0fc8cd5a2aa15554acceb6b50b065970a0befe9c20338b94289e00c7fda93aef",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_001/A_remains.png",
+          "size": 14537382,
+          "sha256": "0fc8cd5a2aa15554acceb6b50b065970a0befe9c20338b94289e00c7fda93aef",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_001/A_partial.png",
+          "size": 14513084,
+          "sha256": "f5d18711ae6dc7a1476f40ab6b9ca7e33a65d5bbb5ee61e1e1e40d54d5352baa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_001/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_001/metadata.json",
+        "size": 10588,
+        "sha256": "c0df637a6eab84e521d0e170038b3a303064cca65c32d58c1de98a90aa71497b",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L01C002O01",
+          "L01C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C002O01",
+          "L01C002O02"
+        ],
+        "partial": [
+          "L01C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_002/W_deposited.png",
+          "size": 14538250,
+          "sha256": "95ddb8a02dee67cc6ab259588ca65156ec332dcf4036f71dbaea113b3eeab28f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_002/A_remains.png",
+          "size": 14538250,
+          "sha256": "95ddb8a02dee67cc6ab259588ca65156ec332dcf4036f71dbaea113b3eeab28f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_002/A_partial.png",
+          "size": 14506608,
+          "sha256": "2e05cfda4d958dcf9217590e01ff7a0470acd18c1dfb415a74e8011d57381b51",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_002/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_002/metadata.json",
+        "size": 10370,
+        "sha256": "01d035946e0222f8324d0e3f79640e24916d5fc4656734237effcf7bc1199595",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L01C003O01",
+          "L01C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C003O01",
+          "L01C003O02"
+        ],
+        "partial": [
+          "L01C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_003/W_deposited.png",
+          "size": 14537347,
+          "sha256": "e526f09d67278fb3ce7dbc98dd0d08aacaf2169f81be77898fa1bb2f4d5a7c04",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_003/A_remains.png",
+          "size": 14537347,
+          "sha256": "e526f09d67278fb3ce7dbc98dd0d08aacaf2169f81be77898fa1bb2f4d5a7c04",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_003/A_partial.png",
+          "size": 14506875,
+          "sha256": "e970171f2c142b4fd204ed8f7b51505014e9aeb0d8f795795cee2f3df740afca",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_003/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_003/metadata.json",
+        "size": 10729,
+        "sha256": "99601666d7a7204eef52e1db6568781d34e6b3c58cf92fd8ca7715c5bb6d9ad0",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L01C004O01",
+          "L01C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C004O01",
+          "L01C004O02"
+        ],
+        "partial": [
+          "L01C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_004/W_deposited.png",
+          "size": 14530916,
+          "sha256": "4e2e6c3a03076dea2bf5b1c4856f9cf1744db71b497701b05f9945df951061b6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_004/A_remains.png",
+          "size": 14530916,
+          "sha256": "4e2e6c3a03076dea2bf5b1c4856f9cf1744db71b497701b05f9945df951061b6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_004/A_partial.png",
+          "size": 14506608,
+          "sha256": "2e05cfda4d958dcf9217590e01ff7a0470acd18c1dfb415a74e8011d57381b51",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_004/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_004/metadata.json",
+        "size": 10270,
+        "sha256": "352104cc562586b1fb09d337fe42d14978c4d230a8dfcd1b719bab7a918240be",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L01C005O01",
+          "L01C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C005O01",
+          "L01C005O02"
+        ],
+        "partial": [
+          "L01C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_005/W_deposited.png",
+          "size": 14529831,
+          "sha256": "de0d574b5d5411de985860a19c1d6a5ee10b1334103fdc3f795e78c3f850a57a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_005/A_remains.png",
+          "size": 14529831,
+          "sha256": "de0d574b5d5411de985860a19c1d6a5ee10b1334103fdc3f795e78c3f850a57a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_005/A_partial.png",
+          "size": 14506875,
+          "sha256": "e970171f2c142b4fd204ed8f7b51505014e9aeb0d8f795795cee2f3df740afca",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_005/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_005/metadata.json",
+        "size": 10633,
+        "sha256": "47e12d60397b2c83a66bf559b787c46cf12acf7d6af610964047d808d6cc08e7",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L01C006O01",
+          "L01C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C006O01",
+          "L01C006O02"
+        ],
+        "partial": [
+          "L01C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_006/W_deposited.png",
+          "size": 14522523,
+          "sha256": "332359323132b0a562a627b08f153244c3b65017bf0e837713e723f497037319",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_006/A_remains.png",
+          "size": 14522523,
+          "sha256": "332359323132b0a562a627b08f153244c3b65017bf0e837713e723f497037319",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_006/A_partial.png",
+          "size": 14506875,
+          "sha256": "e970171f2c142b4fd204ed8f7b51505014e9aeb0d8f795795cee2f3df740afca",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_006/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_006/metadata.json",
+        "size": 10411,
+        "sha256": "bb0ed9040d9d51196fceffcb5ea29289516f22b6297a5ba7422e912d22327cdc",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L01C007O01",
+          "L01C007O02",
+          "L01C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C007O01",
+          "L01C007O02",
+          "L01C007O03"
+        ],
+        "partial": [
+          "L01C007O01",
+          "L01C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_007/W_deposited.png",
+          "size": 14554816,
+          "sha256": "a435fa4b9b5e7e3ff96ac79295da2f2d5438c721f140ef5dba70ae4a36cc3cf3",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_007/A_remains.png",
+          "size": 14554816,
+          "sha256": "a435fa4b9b5e7e3ff96ac79295da2f2d5438c721f140ef5dba70ae4a36cc3cf3",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_007/A_partial.png",
+          "size": 14513084,
+          "sha256": "f5d18711ae6dc7a1476f40ab6b9ca7e33a65d5bbb5ee61e1e1e40d54d5352baa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_007/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_007/metadata.json",
+        "size": 12335,
+        "sha256": "e50c44cd7f43dc6b3d78c5740183d24754f014775c3ccd8806255c6c50102c1b",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 1",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L01C008O01",
+          "L01C008O02",
+          "L01C008O03",
+          "L01C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L01C008O02",
+          "L01C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L01C008O01",
+          "L01C008O02",
+          "L01C008O03",
+          "L01C008O04"
+        ],
+        "partial": [
+          "L01C008O01",
+          "L01C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 1/scenarios/case_008/W_deposited.png",
+          "size": 14568445,
+          "sha256": "3ebe53968093b0d3449285610626e36b2510e3af5258e2560e704b6a50971a67",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 1/scenarios/case_008/A_remains.png",
+          "size": 14568445,
+          "sha256": "3ebe53968093b0d3449285610626e36b2510e3af5258e2560e704b6a50971a67",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 1/scenarios/case_008/A_partial.png",
+          "size": 14529831,
+          "sha256": "de0d574b5d5411de985860a19c1d6a5ee10b1334103fdc3f795e78c3f850a57a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 1/scenarios/case_008/A_removed.png",
+          "size": 14488657,
+          "sha256": "b8fcd644ddf176c7ea10ee9837d099535baa9e917309faceba2c6e9937ea86d8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 1/scenarios/case_008/metadata.json",
+        "size": 14464,
+        "sha256": "133634c3048e85cb92514e0e2de8abdc8bcfeb66dc2eecdfe79d57b906686a7a",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L02C001O01",
+          "L02C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C001O01",
+          "L02C001O02"
+        ],
+        "partial": [
+          "L02C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_001/W_deposited.png",
+          "size": 10687563,
+          "sha256": "8710238c7c75c9c56e34795debd69eb233216244088f19e781464f6d56b650c6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_001/A_remains.png",
+          "size": 10687563,
+          "sha256": "8710238c7c75c9c56e34795debd69eb233216244088f19e781464f6d56b650c6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_001/A_partial.png",
+          "size": 10654500,
+          "sha256": "1d6525bc7f175ca2d557f766a9a87ce932a28ce7ad313b561d1c76c2ee16bc84",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_001/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_001/metadata.json",
+        "size": 12026,
+        "sha256": "e2a8ae011382f1141de56b5466a2d80519c247aa57d6e026deb2339c5d053cc9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L02C002O01",
+          "L02C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C002O01",
+          "L02C002O02"
+        ],
+        "partial": [
+          "L02C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_002/W_deposited.png",
+          "size": 10685795,
+          "sha256": "2068e8760bff1d1240dc0e6e42c421b2945b15e09a0fe99bc6a2e684ee9d2a85",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_002/A_remains.png",
+          "size": 10685795,
+          "sha256": "2068e8760bff1d1240dc0e6e42c421b2945b15e09a0fe99bc6a2e684ee9d2a85",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_002/A_partial.png",
+          "size": 10649408,
+          "sha256": "8955a53ee2b9ea873c2a7a24a2d74459a22f415a44fff569185b3c3b6247bedb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_002/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_002/metadata.json",
+        "size": 11913,
+        "sha256": "ce460f24dfd176288becbc66f4821a8770a23809758746f5f941dc8c9bad233a",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L02C003O01",
+          "L02C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C003O01",
+          "L02C003O02"
+        ],
+        "partial": [
+          "L02C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_003/W_deposited.png",
+          "size": 10701377,
+          "sha256": "6d97178364034749aa7aa399328fed9227571b0c2752edf5b47c2ae49122022d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_003/A_remains.png",
+          "size": 10701377,
+          "sha256": "6d97178364034749aa7aa399328fed9227571b0c2752edf5b47c2ae49122022d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_003/A_partial.png",
+          "size": 10665088,
+          "sha256": "c43b46ef1b576f0b4c6a093660a910e2fb53720ddfb358ef8c288f7535f529f2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_003/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_003/metadata.json",
+        "size": 11808,
+        "sha256": "cf8ee30fe518e8cbcd008b399e9f12499d298db373ac31157074471c33f2290b",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L02C004O01",
+          "L02C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C004O01",
+          "L02C004O02"
+        ],
+        "partial": [
+          "L02C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_004/W_deposited.png",
+          "size": 10668140,
+          "sha256": "2a65d3c87d1e4aed78a12de3c2081d45d03079736b2fd4907c9377d98405da08",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_004/A_remains.png",
+          "size": 10668140,
+          "sha256": "2a65d3c87d1e4aed78a12de3c2081d45d03079736b2fd4907c9377d98405da08",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_004/A_partial.png",
+          "size": 10649408,
+          "sha256": "8955a53ee2b9ea873c2a7a24a2d74459a22f415a44fff569185b3c3b6247bedb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_004/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_004/metadata.json",
+        "size": 10765,
+        "sha256": "87376385155aa97a75e97075fe0171a19b057fd265b39489ea040b3473f817a7",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L02C005O01",
+          "L02C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C005O01",
+          "L02C005O02"
+        ],
+        "partial": [
+          "L02C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_005/W_deposited.png",
+          "size": 10683217,
+          "sha256": "3f0d46f2ea972842cefb9e90bc509319404ec56cf6a215de17482615cdf0822a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_005/A_remains.png",
+          "size": 10683217,
+          "sha256": "3f0d46f2ea972842cefb9e90bc509319404ec56cf6a215de17482615cdf0822a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_005/A_partial.png",
+          "size": 10665088,
+          "sha256": "c43b46ef1b576f0b4c6a093660a910e2fb53720ddfb358ef8c288f7535f529f2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_005/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_005/metadata.json",
+        "size": 10628,
+        "sha256": "f8845a7469e517a703a5be17f837ae75d3ac67dc637032a074a646e0d84b98d4",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L02C006O01",
+          "L02C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C006O01",
+          "L02C006O02"
+        ],
+        "partial": [
+          "L02C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_006/W_deposited.png",
+          "size": 10676938,
+          "sha256": "b0b5cbef901d9a5bad0fdf6d8f5323bd30e32e98087aa918123f82af4d056128",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_006/A_remains.png",
+          "size": 10676938,
+          "sha256": "b0b5cbef901d9a5bad0fdf6d8f5323bd30e32e98087aa918123f82af4d056128",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_006/A_partial.png",
+          "size": 10665088,
+          "sha256": "c43b46ef1b576f0b4c6a093660a910e2fb53720ddfb358ef8c288f7535f529f2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_006/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_006/metadata.json",
+        "size": 10510,
+        "sha256": "cb4acfe2bc480fc3ea5784a2e1d6c5c000dd00ed9d359a451abe112ae5da06ca",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L02C007O01",
+          "L02C007O02",
+          "L02C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C007O01",
+          "L02C007O02",
+          "L02C007O03"
+        ],
+        "partial": [
+          "L02C007O01",
+          "L02C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_007/W_deposited.png",
+          "size": 10701160,
+          "sha256": "53c581a83954c736d90cd03bda138809a371b1b8dbef81fb12bfd6f36692d70b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_007/A_remains.png",
+          "size": 10701160,
+          "sha256": "53c581a83954c736d90cd03bda138809a371b1b8dbef81fb12bfd6f36692d70b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_007/A_partial.png",
+          "size": 10654500,
+          "sha256": "1d6525bc7f175ca2d557f766a9a87ce932a28ce7ad313b561d1c76c2ee16bc84",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_007/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_007/metadata.json",
+        "size": 14216,
+        "sha256": "80633dd65225b2ad91c10332b9f27037d1200bacfbfc01d7a9002d2dd20c7142",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 2",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L02C008O01",
+          "L02C008O02",
+          "L02C008O03",
+          "L02C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L02C008O02",
+          "L02C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L02C008O01",
+          "L02C008O02",
+          "L02C008O03",
+          "L02C008O04"
+        ],
+        "partial": [
+          "L02C008O01",
+          "L02C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 2/scenarios/case_008/W_deposited.png",
+          "size": 10728068,
+          "sha256": "5a870a6bc82f0cba4ddd3c16331e833861024713f4ea1a6a17e1305975dd80d2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 2/scenarios/case_008/A_remains.png",
+          "size": 10728068,
+          "sha256": "5a870a6bc82f0cba4ddd3c16331e833861024713f4ea1a6a17e1305975dd80d2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 2/scenarios/case_008/A_partial.png",
+          "size": 10683217,
+          "sha256": "3f0d46f2ea972842cefb9e90bc509319404ec56cf6a215de17482615cdf0822a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 2/scenarios/case_008/A_removed.png",
+          "size": 10635686,
+          "sha256": "45c9bcc5a802efae50b6add058dfa47675dc172a39af7cad2ab4649f998a9228",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 2/scenarios/case_008/metadata.json",
+        "size": 16297,
+        "sha256": "80d34db164458cfb133e2b316bb0e1880377ef8cd5ebcd5ce415a2aafdc8b710",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L03C001O01",
+          "L03C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C001O01",
+          "L03C001O02"
+        ],
+        "partial": [
+          "L03C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_001/W_deposited.png",
+          "size": 12873721,
+          "sha256": "c8ed0f1f5b28e4c91a026912d60df3aa24b0bd834d2aa89e38c615f4d86055f6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_001/A_remains.png",
+          "size": 12873721,
+          "sha256": "c8ed0f1f5b28e4c91a026912d60df3aa24b0bd834d2aa89e38c615f4d86055f6",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_001/A_partial.png",
+          "size": 12874489,
+          "sha256": "8f72f13958f1c6987f7501fc17e0e0561e44ddd2b1d1a9a28aa6a3fa332ecb5e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_001/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_001/metadata.json",
+        "size": 12222,
+        "sha256": "1eae0b6ae52a0d32aef07094c81bdb88d7144804d00485cbcc28e61a0462241a",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L03C002O01",
+          "L03C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C002O01",
+          "L03C002O02"
+        ],
+        "partial": [
+          "L03C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_002/W_deposited.png",
+          "size": 12874475,
+          "sha256": "b903e961689e347054c1ea1c18901d6de9e9872c8e41541d45a3aa8fbeb2a46d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_002/A_remains.png",
+          "size": 12874475,
+          "sha256": "b903e961689e347054c1ea1c18901d6de9e9872c8e41541d45a3aa8fbeb2a46d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_002/A_partial.png",
+          "size": 12874064,
+          "sha256": "8ff8839dea8c8ed26c5c0eea3ac27e9a9cd547d9f0e2301188060f2ae0496358",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_002/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_002/metadata.json",
+        "size": 11467,
+        "sha256": "658ddb1c8a7c16067efafd674a0802d5ef5dee2a7cfb20098ea5f421fb924c58",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L03C003O01",
+          "L03C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C003O01",
+          "L03C003O02"
+        ],
+        "partial": [
+          "L03C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_003/W_deposited.png",
+          "size": 12891226,
+          "sha256": "a4051eb74d3ec143f38244be23c2804c711843d819979415305eb893d7169e49",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_003/A_remains.png",
+          "size": 12891226,
+          "sha256": "a4051eb74d3ec143f38244be23c2804c711843d819979415305eb893d7169e49",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_003/A_partial.png",
+          "size": 12889369,
+          "sha256": "fd450eb931303561940543a6862b7d09e62377ce50e9ccd699233826ca15f15e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_003/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_003/metadata.json",
+        "size": 12031,
+        "sha256": "dfc131b5bd2cf690e75e283fd212fc35bd9319b62991a1f8f3241ec2c2615714",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L03C004O01",
+          "L03C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C004O01",
+          "L03C004O02"
+        ],
+        "partial": [
+          "L03C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_004/W_deposited.png",
+          "size": 12872025,
+          "sha256": "e5d60aa9513b4b0be2fd14a407d54269009d9bb4182f4c05b28fd81c466000ca",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_004/A_remains.png",
+          "size": 12872025,
+          "sha256": "e5d60aa9513b4b0be2fd14a407d54269009d9bb4182f4c05b28fd81c466000ca",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_004/A_partial.png",
+          "size": 12874064,
+          "sha256": "8ff8839dea8c8ed26c5c0eea3ac27e9a9cd547d9f0e2301188060f2ae0496358",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_004/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_004/metadata.json",
+        "size": 11613,
+        "sha256": "6012cd3ad6cbfca28301527144314cade0bb226b5f404ba80580a2ea2919027c",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L03C005O01",
+          "L03C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C005O01",
+          "L03C005O02"
+        ],
+        "partial": [
+          "L03C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_005/W_deposited.png",
+          "size": 12887627,
+          "sha256": "93b3684dd1ba33bf7de31a4f8ca8ef7fa8b53441a7bf1ab9ae683aca8dc21dfc",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_005/A_remains.png",
+          "size": 12887627,
+          "sha256": "93b3684dd1ba33bf7de31a4f8ca8ef7fa8b53441a7bf1ab9ae683aca8dc21dfc",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_005/A_partial.png",
+          "size": 12889369,
+          "sha256": "fd450eb931303561940543a6862b7d09e62377ce50e9ccd699233826ca15f15e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_005/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_005/metadata.json",
+        "size": 12178,
+        "sha256": "51144b1fce42cc9c6589363db7bfa66e024e922b0f0cfb34d1c12c1d27e86abb",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L03C006O01",
+          "L03C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C006O01",
+          "L03C006O02"
+        ],
+        "partial": [
+          "L03C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_006/W_deposited.png",
+          "size": 12883910,
+          "sha256": "dbff912fc58910406e28de3e512e3f32e7acf2a0ad4f18f345d39f67b15178a5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_006/A_remains.png",
+          "size": 12883910,
+          "sha256": "dbff912fc58910406e28de3e512e3f32e7acf2a0ad4f18f345d39f67b15178a5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_006/A_partial.png",
+          "size": 12889369,
+          "sha256": "fd450eb931303561940543a6862b7d09e62377ce50e9ccd699233826ca15f15e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_006/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_006/metadata.json",
+        "size": 11429,
+        "sha256": "79a9d22d14d154b0e12789e6653a2f9042ecd7b97c6eea3abca053d9c27b2fab",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L03C007O01",
+          "L03C007O02",
+          "L03C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C007O01",
+          "L03C007O02",
+          "L03C007O03"
+        ],
+        "partial": [
+          "L03C007O01",
+          "L03C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_007/W_deposited.png",
+          "size": 12869863,
+          "sha256": "62784ca986e2c1a93f13f7c1ab19e7ff3a7e4e50fb09b75f7a2d27a76d87aa36",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_007/A_remains.png",
+          "size": 12869863,
+          "sha256": "62784ca986e2c1a93f13f7c1ab19e7ff3a7e4e50fb09b75f7a2d27a76d87aa36",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_007/A_partial.png",
+          "size": 12874489,
+          "sha256": "8f72f13958f1c6987f7501fc17e0e0561e44ddd2b1d1a9a28aa6a3fa332ecb5e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_007/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_007/metadata.json",
+        "size": 14150,
+        "sha256": "2e5f392002db0890d1caa5742b3568048cc5871335bbd7d1469c9c6c9e5e667d",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 3",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L03C008O01",
+          "L03C008O02",
+          "L03C008O03",
+          "L03C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L03C008O02",
+          "L03C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L03C008O01",
+          "L03C008O02",
+          "L03C008O03",
+          "L03C008O04"
+        ],
+        "partial": [
+          "L03C008O01",
+          "L03C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 3/scenarios/case_008/W_deposited.png",
+          "size": 12879421,
+          "sha256": "d66cdb1e1e4a64077d2bca3ed7d2577a306689f72acba1e4a409fb9d0a967bbc",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 3/scenarios/case_008/A_remains.png",
+          "size": 12879421,
+          "sha256": "d66cdb1e1e4a64077d2bca3ed7d2577a306689f72acba1e4a409fb9d0a967bbc",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 3/scenarios/case_008/A_partial.png",
+          "size": 12887627,
+          "sha256": "93b3684dd1ba33bf7de31a4f8ca8ef7fa8b53441a7bf1ab9ae683aca8dc21dfc",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 3/scenarios/case_008/A_removed.png",
+          "size": 12875974,
+          "sha256": "cbfc4ff459e47ff1b43f789d2a45c718a942f1260bba4eef75a964875abc79e0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 3/scenarios/case_008/metadata.json",
+        "size": 16642,
+        "sha256": "b4b62e44cfc2c6cbde39259f0c631f5d69432501ba5a939b5904790580b4e038",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L04C001O01",
+          "L04C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C001O01",
+          "L04C001O02"
+        ],
+        "partial": [
+          "L04C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_001/W_deposited.png",
+          "size": 10618890,
+          "sha256": "d64c5542ca2dc7791572454396170a6036efac6c4c7502efbb55e74a30fe474b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_001/A_remains.png",
+          "size": 10618890,
+          "sha256": "d64c5542ca2dc7791572454396170a6036efac6c4c7502efbb55e74a30fe474b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_001/A_partial.png",
+          "size": 10586141,
+          "sha256": "0aa9bd5c9aae18bd03ca7175db29b8e53bd854b4cb7741c0baa967472840ae0d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_001/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_001/metadata.json",
+        "size": 9966,
+        "sha256": "fe7675e78bd958028b79a02081276fa7434ed364b81a41643c62317af4d282a0",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L04C002O01",
+          "L04C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C002O01",
+          "L04C002O02"
+        ],
+        "partial": [
+          "L04C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_002/W_deposited.png",
+          "size": 10591438,
+          "sha256": "58c3f8fb8652d4d75f2dfbe07fb4d900b7967531abf32ff2b5a1fcd3c4187c18",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_002/A_remains.png",
+          "size": 10591438,
+          "sha256": "58c3f8fb8652d4d75f2dfbe07fb4d900b7967531abf32ff2b5a1fcd3c4187c18",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_002/A_partial.png",
+          "size": 10563160,
+          "sha256": "54c372fe65035dc37a82be1b6f0afcca9a805cbc77cb461e3a41a3670c21d01c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_002/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_002/metadata.json",
+        "size": 9820,
+        "sha256": "e7c92f843088a5d00b9ebb08807f5d1fee7547ec0c2468df0939b206f72ff8ea",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L04C003O01",
+          "L04C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C003O01",
+          "L04C003O02"
+        ],
+        "partial": [
+          "L04C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_003/W_deposited.png",
+          "size": 10567622,
+          "sha256": "1e550cd07310441062943a436b0e3c6db837fc3dbd571952355e70615564425f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_003/A_remains.png",
+          "size": 10567622,
+          "sha256": "1e550cd07310441062943a436b0e3c6db837fc3dbd571952355e70615564425f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_003/A_partial.png",
+          "size": 10533746,
+          "sha256": "e589d3f6ab4ec4dc49adaa55a851a4adc8c58925d11ec826ff8007d3b6527e92",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_003/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_003/metadata.json",
+        "size": 9385,
+        "sha256": "a3c08306d61af9b2dbdaec44dea20d06cb52fd493355b3f2e9f2c0ecdae5602a",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L04C004O01",
+          "L04C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C004O01",
+          "L04C004O02"
+        ],
+        "partial": [
+          "L04C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_004/W_deposited.png",
+          "size": 10641752,
+          "sha256": "243f55e510dd445adf832503b645171a85fc950686fe7a32037ca70d881ea193",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_004/A_remains.png",
+          "size": 10641752,
+          "sha256": "243f55e510dd445adf832503b645171a85fc950686fe7a32037ca70d881ea193",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_004/A_partial.png",
+          "size": 10563160,
+          "sha256": "54c372fe65035dc37a82be1b6f0afcca9a805cbc77cb461e3a41a3670c21d01c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_004/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_004/metadata.json",
+        "size": 9598,
+        "sha256": "20c33ff7e3f4476e966635765301a6446cb5d8d10c9c48c8d5d9e581423919d9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L04C005O01",
+          "L04C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C005O01",
+          "L04C005O02"
+        ],
+        "partial": [
+          "L04C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_005/W_deposited.png",
+          "size": 10607433,
+          "sha256": "ee0ed88a63afe2306d53be9036948db33b0437bdd61c4814bd69fd1e05e2c25b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_005/A_remains.png",
+          "size": 10607433,
+          "sha256": "ee0ed88a63afe2306d53be9036948db33b0437bdd61c4814bd69fd1e05e2c25b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_005/A_partial.png",
+          "size": 10533746,
+          "sha256": "e589d3f6ab4ec4dc49adaa55a851a4adc8c58925d11ec826ff8007d3b6527e92",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_005/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_005/metadata.json",
+        "size": 9168,
+        "sha256": "fe161170b91d698453c30d0903d936274fa6729ad1c1594e2bbde66ff10828b1",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L04C006O01",
+          "L04C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C006O01",
+          "L04C006O02"
+        ],
+        "partial": [
+          "L04C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_006/W_deposited.png",
+          "size": 10591764,
+          "sha256": "0cc3a962982e005edaaf996c1486f550690c7a972160696f89d66c6479ee82e1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_006/A_remains.png",
+          "size": 10591764,
+          "sha256": "0cc3a962982e005edaaf996c1486f550690c7a972160696f89d66c6479ee82e1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_006/A_partial.png",
+          "size": 10533746,
+          "sha256": "e589d3f6ab4ec4dc49adaa55a851a4adc8c58925d11ec826ff8007d3b6527e92",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_006/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_006/metadata.json",
+        "size": 9015,
+        "sha256": "23d00cf4d5448ffb00358b3cc1de392edb7a4df5f41528476c51ccdeca4c6f3e",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L04C007O01",
+          "L04C007O02",
+          "L04C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C007O01",
+          "L04C007O02",
+          "L04C007O03"
+        ],
+        "partial": [
+          "L04C007O01",
+          "L04C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_007/W_deposited.png",
+          "size": 10668757,
+          "sha256": "d6b6101166361178484c821840494358fab304448f96e9ea903dbd81ca6cc6e5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_007/A_remains.png",
+          "size": 10668757,
+          "sha256": "d6b6101166361178484c821840494358fab304448f96e9ea903dbd81ca6cc6e5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_007/A_partial.png",
+          "size": 10586141,
+          "sha256": "0aa9bd5c9aae18bd03ca7175db29b8e53bd854b4cb7741c0baa967472840ae0d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_007/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_007/metadata.json",
+        "size": 11777,
+        "sha256": "44485a72078efdc357a278e57eaa1813160966d965183384116ec024b5161d1d",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 4",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L04C008O01",
+          "L04C008O02",
+          "L04C008O03",
+          "L04C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L04C008O02",
+          "L04C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L04C008O01",
+          "L04C008O02",
+          "L04C008O03",
+          "L04C008O04"
+        ],
+        "partial": [
+          "L04C008O01",
+          "L04C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 4/scenarios/case_008/W_deposited.png",
+          "size": 10689612,
+          "sha256": "1abf7e497c3407900d607d734e877b3320e947e86897670b49ad3089dc14c990",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 4/scenarios/case_008/A_remains.png",
+          "size": 10689612,
+          "sha256": "1abf7e497c3407900d607d734e877b3320e947e86897670b49ad3089dc14c990",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 4/scenarios/case_008/A_partial.png",
+          "size": 10607433,
+          "sha256": "ee0ed88a63afe2306d53be9036948db33b0437bdd61c4814bd69fd1e05e2c25b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 4/scenarios/case_008/A_removed.png",
+          "size": 10504719,
+          "sha256": "73e16e9a3153b272ea6a07fd1a6c71c39953baacde5cd89529695cd8461e69b9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 4/scenarios/case_008/metadata.json",
+        "size": 13181,
+        "sha256": "399479183488b3a52f1ce5b773c391c21bfe354d82507e0059ab515b1ca65030",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L05C001O01",
+          "L05C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C001O01",
+          "L05C001O02"
+        ],
+        "partial": [
+          "L05C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_001/W_deposited.png",
+          "size": 18813627,
+          "sha256": "06ae3ec9eb6f15a13ea4ce300ed0d7e7bf54c073febf89bb976c3e79c9a224e2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_001/A_remains.png",
+          "size": 18813627,
+          "sha256": "06ae3ec9eb6f15a13ea4ce300ed0d7e7bf54c073febf89bb976c3e79c9a224e2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_001/A_partial.png",
+          "size": 18821411,
+          "sha256": "01766402560a91012e859f151427d3f113c1cebc07534e67a8b17f3c8049e4cb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_001/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_001/metadata.json",
+        "size": 11219,
+        "sha256": "73e2023bf51f2ea70ae76a92b09199f5b869398d23817fc2e4d93c8e312a7e7f",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C002O01",
+          "L05C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C002O01",
+          "L05C002O02"
+        ],
+        "partial": [
+          "L05C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_002/W_deposited.png",
+          "size": 18800847,
+          "sha256": "05baaad8aa0666a93a8ef163a51d801c116077bed6dd764f0f748ddc550aea1b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_002/A_remains.png",
+          "size": 18800847,
+          "sha256": "05baaad8aa0666a93a8ef163a51d801c116077bed6dd764f0f748ddc550aea1b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_002/A_partial.png",
+          "size": 18807413,
+          "sha256": "500b15da9cab18f1ea212b22c5dd57f2e8fdda2ab86370cc99c954a1296b0f4e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_002/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_002/metadata.json",
+        "size": 11106,
+        "sha256": "b0698a84dd170b5d561c0ae05994e85a2e1e03176e7ae1e4e1ac9b6b0270b7b9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L05C003O01",
+          "L05C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C003O01",
+          "L05C003O02"
+        ],
+        "partial": [
+          "L05C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_003/W_deposited.png",
+          "size": 18812968,
+          "sha256": "555fe1c80449721a6395b239c151a21b5a65a7e4d5fc535dde87d6e03360e3ec",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_003/A_remains.png",
+          "size": 18812968,
+          "sha256": "555fe1c80449721a6395b239c151a21b5a65a7e4d5fc535dde87d6e03360e3ec",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_003/A_partial.png",
+          "size": 18819669,
+          "sha256": "78e51f77b307bc936072364123c7b7eac1b95726e57afece18021eaf254dd25e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_003/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_003/metadata.json",
+        "size": 10930,
+        "sha256": "f8de5a23a50659022653fca634a6f78ecac1b410281fd913475aa3a23e769357",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C004O01",
+          "L05C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C004O01",
+          "L05C004O02"
+        ],
+        "partial": [
+          "L05C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_004/W_deposited.png",
+          "size": 18805794,
+          "sha256": "ecf5fc056bdae23e235696f095390f9a5474a0a646cb850eb14c1e532a42074f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_004/A_remains.png",
+          "size": 18805794,
+          "sha256": "ecf5fc056bdae23e235696f095390f9a5474a0a646cb850eb14c1e532a42074f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_004/A_partial.png",
+          "size": 18807413,
+          "sha256": "500b15da9cab18f1ea212b22c5dd57f2e8fdda2ab86370cc99c954a1296b0f4e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_004/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_004/metadata.json",
+        "size": 10807,
+        "sha256": "7215f30fb01ee617b0b462dc674fe02ff3dfe6ce618b3b6795eadfaaa35781b9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C005O01",
+          "L05C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C005O01",
+          "L05C005O02"
+        ],
+        "partial": [
+          "L05C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_005/W_deposited.png",
+          "size": 18817963,
+          "sha256": "48f8c1b18e1cca7175e6ac0d8763820406e066cab4b0d46730858baa6b08f5b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_005/A_remains.png",
+          "size": 18817963,
+          "sha256": "48f8c1b18e1cca7175e6ac0d8763820406e066cab4b0d46730858baa6b08f5b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_005/A_partial.png",
+          "size": 18819669,
+          "sha256": "78e51f77b307bc936072364123c7b7eac1b95726e57afece18021eaf254dd25e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_005/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_005/metadata.json",
+        "size": 10620,
+        "sha256": "efbdfca0a0e0c4ca8f445eb881769a6d41e7bba45ebf6e347b5f067d61a25f46",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C006O01",
+          "L05C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C006O01",
+          "L05C006O02"
+        ],
+        "partial": [
+          "L05C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_006/W_deposited.png",
+          "size": 18802914,
+          "sha256": "444aa9aa22b92535e43705992785a88bd66b33ac42a9f3b25b604390b3c95890",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_006/A_remains.png",
+          "size": 18802914,
+          "sha256": "444aa9aa22b92535e43705992785a88bd66b33ac42a9f3b25b604390b3c95890",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_006/A_partial.png",
+          "size": 18819669,
+          "sha256": "78e51f77b307bc936072364123c7b7eac1b95726e57afece18021eaf254dd25e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_006/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_006/metadata.json",
+        "size": 10487,
+        "sha256": "5a79836835e29ed704606336089785eb09b6f494f82552d0c4bb633c5ca5c77e",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C007O01",
+          "L05C007O02",
+          "L05C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C007O01",
+          "L05C007O02",
+          "L05C007O03"
+        ],
+        "partial": [
+          "L05C007O01",
+          "L05C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_007/W_deposited.png",
+          "size": 18798013,
+          "sha256": "3080e759da841c7e022ab385150d31a2120e91bac56ad47156422496c6abe98f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_007/A_remains.png",
+          "size": 18798013,
+          "sha256": "3080e759da841c7e022ab385150d31a2120e91bac56ad47156422496c6abe98f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_007/A_partial.png",
+          "size": 18821411,
+          "sha256": "01766402560a91012e859f151427d3f113c1cebc07534e67a8b17f3c8049e4cb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_007/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_007/metadata.json",
+        "size": 13353,
+        "sha256": "610987f51156dea1d75ac4258db100eb6e7f8757de451499e3286103da27e9e2",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 5",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "loose_litter_dominant",
+      "remaining": {
+        "remains": [
+          "L05C008O01",
+          "L05C008O02",
+          "L05C008O03",
+          "L05C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L05C008O02",
+          "L05C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L05C008O01",
+          "L05C008O02",
+          "L05C008O03",
+          "L05C008O04"
+        ],
+        "partial": [
+          "L05C008O01",
+          "L05C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 5/scenarios/case_008/W_deposited.png",
+          "size": 18793496,
+          "sha256": "dd60fa6311383bca632c822d40b95ead785fbe718b106191bdd6d1ce5e4ffc4f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 5/scenarios/case_008/A_remains.png",
+          "size": 18793496,
+          "sha256": "dd60fa6311383bca632c822d40b95ead785fbe718b106191bdd6d1ce5e4ffc4f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 5/scenarios/case_008/A_partial.png",
+          "size": 18817963,
+          "sha256": "48f8c1b18e1cca7175e6ac0d8763820406e066cab4b0d46730858baa6b08f5b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 5/scenarios/case_008/A_removed.png",
+          "size": 18823146,
+          "sha256": "5b4ee73719d009639e9fc5b8fd75c16b573a7324fe2edcfc2e2d69b5fbee9036",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 5/scenarios/case_008/metadata.json",
+        "size": 15281,
+        "sha256": "fd19460a255cd65cb6628e476e5d8cc508ad1b65ab1af4b2169f4887977be849",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L06C001O01",
+          "L06C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C001O01",
+          "L06C001O02"
+        ],
+        "partial": [
+          "L06C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_001/W_deposited.png",
+          "size": 12303901,
+          "sha256": "e2ebfc3dbb9f800418799de85ff3ad03a30a6e7e32e5850841cb81be73b2108e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_001/A_remains.png",
+          "size": 12303901,
+          "sha256": "e2ebfc3dbb9f800418799de85ff3ad03a30a6e7e32e5850841cb81be73b2108e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_001/A_partial.png",
+          "size": 12290539,
+          "sha256": "c604c596ef35f6b7591af085ad113aa330b01fee07bdaf2ef64778d1242f31ac",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_001/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_001/metadata.json",
+        "size": 12618,
+        "sha256": "91a9ab4da58dde327a42c41508705e0ab98ace7049df6cab445a7532e08fd4ec",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L06C002O01",
+          "L06C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C002O01",
+          "L06C002O02"
+        ],
+        "partial": [
+          "L06C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_002/W_deposited.png",
+          "size": 12295771,
+          "sha256": "5217744440fe9805342d7c4e44b35e6677382d6513d16e0b0621e6a739c6ac03",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_002/A_remains.png",
+          "size": 12295771,
+          "sha256": "5217744440fe9805342d7c4e44b35e6677382d6513d16e0b0621e6a739c6ac03",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_002/A_partial.png",
+          "size": 12281321,
+          "sha256": "f5cc8eeb411d289bbf76e8b8cdd5155329e3748fbe1772424de9e58f28198e81",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_002/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_002/metadata.json",
+        "size": 11877,
+        "sha256": "1ea28256c61851832e6fb8d2d15ab8e8997866cce7f680cd5dd2be4bbb75a4a9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L06C003O01",
+          "L06C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C003O01",
+          "L06C003O02"
+        ],
+        "partial": [
+          "L06C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_003/W_deposited.png",
+          "size": 12297296,
+          "sha256": "3b591910624bacd7394ffb9f8d5732897a7b8e234fb1fe08baa285b006ccef41",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_003/A_remains.png",
+          "size": 12297296,
+          "sha256": "3b591910624bacd7394ffb9f8d5732897a7b8e234fb1fe08baa285b006ccef41",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_003/A_partial.png",
+          "size": 12281031,
+          "sha256": "213631736d448d273b747ad9b63850bf5a05d3ea9b2cf250fb0b0ed2ffccb276",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_003/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_003/metadata.json",
+        "size": 11099,
+        "sha256": "c1757629c3261b6426037f2bb02b068857415c5263bd781ca3dfbc04cdbf159d",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L06C004O01",
+          "L06C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C004O01",
+          "L06C004O02"
+        ],
+        "partial": [
+          "L06C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_004/W_deposited.png",
+          "size": 12302862,
+          "sha256": "4f261d8a7a089b5a6b5abf489d1d4af6e7fc4eacc5e28f353b620024a7e881ba",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_004/A_remains.png",
+          "size": 12302862,
+          "sha256": "4f261d8a7a089b5a6b5abf489d1d4af6e7fc4eacc5e28f353b620024a7e881ba",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_004/A_partial.png",
+          "size": 12281321,
+          "sha256": "f5cc8eeb411d289bbf76e8b8cdd5155329e3748fbe1772424de9e58f28198e81",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_004/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_004/metadata.json",
+        "size": 12957,
+        "sha256": "40bd5d5636dd4fbbe1726cd77c4f6b9c27b688d7987c05fd68541bae47ea1758",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L06C005O01",
+          "L06C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C005O01",
+          "L06C005O02"
+        ],
+        "partial": [
+          "L06C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_005/W_deposited.png",
+          "size": 12294811,
+          "sha256": "25de70d36b7583969fd1db03e920d5138ebfd5359096d04abb32cef0eab279c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_005/A_remains.png",
+          "size": 12294811,
+          "sha256": "25de70d36b7583969fd1db03e920d5138ebfd5359096d04abb32cef0eab279c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_005/A_partial.png",
+          "size": 12281031,
+          "sha256": "213631736d448d273b747ad9b63850bf5a05d3ea9b2cf250fb0b0ed2ffccb276",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_005/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_005/metadata.json",
+        "size": 12178,
+        "sha256": "88f1a427f99982265cca0f5132dd44a4edbe89e7c5eb623868ec86ed393be176",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L06C006O01",
+          "L06C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C006O01",
+          "L06C006O02"
+        ],
+        "partial": [
+          "L06C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_006/W_deposited.png",
+          "size": 12292636,
+          "sha256": "eb6d3da4dda8e84e0534e2a72c300d894b024d47887a2b9e0a575c9cbee427ea",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_006/A_remains.png",
+          "size": 12292636,
+          "sha256": "eb6d3da4dda8e84e0534e2a72c300d894b024d47887a2b9e0a575c9cbee427ea",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_006/A_partial.png",
+          "size": 12281031,
+          "sha256": "213631736d448d273b747ad9b63850bf5a05d3ea9b2cf250fb0b0ed2ffccb276",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_006/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_006/metadata.json",
+        "size": 11438,
+        "sha256": "3326e39fff5c23e15a3704d6ae7482c2166b474c3e9a8c46f0077fdbc7f9c8f2",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L06C007O01",
+          "L06C007O02",
+          "L06C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C007O01",
+          "L06C007O02",
+          "L06C007O03"
+        ],
+        "partial": [
+          "L06C007O01",
+          "L06C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_007/W_deposited.png",
+          "size": 12314106,
+          "sha256": "240d1008ae37c3b9b74b54f352fcc0d9a1478c14740ca69bed8b3fa7d269bb67",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_007/A_remains.png",
+          "size": 12314106,
+          "sha256": "240d1008ae37c3b9b74b54f352fcc0d9a1478c14740ca69bed8b3fa7d269bb67",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_007/A_partial.png",
+          "size": 12290539,
+          "sha256": "c604c596ef35f6b7591af085ad113aa330b01fee07bdaf2ef64778d1242f31ac",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_007/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_007/metadata.json",
+        "size": 14856,
+        "sha256": "dc3fecd16fec07da3e08af9ff3224eafe760509b5de2b73641dabeebe09b3785",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 6",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L06C008O01",
+          "L06C008O02",
+          "L06C008O03",
+          "L06C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L06C008O02",
+          "L06C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L06C008O01",
+          "L06C008O02",
+          "L06C008O03",
+          "L06C008O04"
+        ],
+        "partial": [
+          "L06C008O01",
+          "L06C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 6/scenarios/case_008/W_deposited.png",
+          "size": 12317393,
+          "sha256": "02837b30785317f9503bd225db2616a45b0f3476b337c01178ee636db43d835f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 6/scenarios/case_008/A_remains.png",
+          "size": 12317393,
+          "sha256": "02837b30785317f9503bd225db2616a45b0f3476b337c01178ee636db43d835f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 6/scenarios/case_008/A_partial.png",
+          "size": 12294811,
+          "sha256": "25de70d36b7583969fd1db03e920d5138ebfd5359096d04abb32cef0eab279c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 6/scenarios/case_008/A_removed.png",
+          "size": 12268270,
+          "sha256": "4010f78c7ec2f3a7637fda20662816e90cfe90707831f14a46cf86bf79001096",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 6/scenarios/case_008/metadata.json",
+        "size": 16346,
+        "sha256": "517b0ac608324c9996067d933ef0f2e9db64f52a1d09ef3abe547692aba450db",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C001O01",
+          "L07C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C001O01",
+          "L07C001O02"
+        ],
+        "partial": [
+          "L07C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_001/W_deposited.png",
+          "size": 10634014,
+          "sha256": "0b22cfc955275b04571316d291b84eda21c6edb6a870d6a8f31694914e45ae68",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_001/A_remains.png",
+          "size": 10634014,
+          "sha256": "0b22cfc955275b04571316d291b84eda21c6edb6a870d6a8f31694914e45ae68",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_001/A_partial.png",
+          "size": 10628270,
+          "sha256": "a0df4826c5710846a0f5135d86dabf3c2203f896a8190974d650731f47bb87a9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_001/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_001/metadata.json",
+        "size": 9697,
+        "sha256": "ed244bc736dc24f5f10ae40c4ec625c234c870b2a5e00651fe9d97c741339129",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C002O01",
+          "L07C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C002O01",
+          "L07C002O02"
+        ],
+        "partial": [
+          "L07C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_002/W_deposited.png",
+          "size": 10630330,
+          "sha256": "245029eff713cfdcc59b732446916bfbc1b14dea1a3eefcfed48b36d3ff81c0e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_002/A_remains.png",
+          "size": 10630330,
+          "sha256": "245029eff713cfdcc59b732446916bfbc1b14dea1a3eefcfed48b36d3ff81c0e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_002/A_partial.png",
+          "size": 10623360,
+          "sha256": "51d5f347d7ad30d1b1bdfedc3844190b6931484b5ebb1f8d6391b750f6da660e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_002/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_002/metadata.json",
+        "size": 9930,
+        "sha256": "69782261104a57af205f55d04e983f9a92920ea848a2adb3698f6e6e241319a8",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C003O01",
+          "L07C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C003O01",
+          "L07C003O02"
+        ],
+        "partial": [
+          "L07C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_003/W_deposited.png",
+          "size": 10623554,
+          "sha256": "7e4fe1e5d6fb8ace2ab7506ef29ec29be751dd45618c47cb49d2ac9900cd0619",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_003/A_remains.png",
+          "size": 10623554,
+          "sha256": "7e4fe1e5d6fb8ace2ab7506ef29ec29be751dd45618c47cb49d2ac9900cd0619",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_003/A_partial.png",
+          "size": 10616803,
+          "sha256": "006624b52e2ca1e1c1e60d1bfe542e3d78b6c557120e5c0c871da89a43788fe1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_003/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_003/metadata.json",
+        "size": 9420,
+        "sha256": "abce45c0ffe628c3cd9392f1d675ceeab2e6144e9529840df2aa679c125a93fc",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C004O01",
+          "L07C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C004O01",
+          "L07C004O02"
+        ],
+        "partial": [
+          "L07C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_004/W_deposited.png",
+          "size": 10636589,
+          "sha256": "bb4f117566833b367dbd6603ecf426c4f5095b7725c2ac59adcacec3ef537c24",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_004/A_remains.png",
+          "size": 10636589,
+          "sha256": "bb4f117566833b367dbd6603ecf426c4f5095b7725c2ac59adcacec3ef537c24",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_004/A_partial.png",
+          "size": 10623360,
+          "sha256": "51d5f347d7ad30d1b1bdfedc3844190b6931484b5ebb1f8d6391b750f6da660e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_004/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_004/metadata.json",
+        "size": 10145,
+        "sha256": "f7858b25c98846f1240255212c66978596271e12f168eba2c06ba971f37092e3",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C005O01",
+          "L07C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C005O01",
+          "L07C005O02"
+        ],
+        "partial": [
+          "L07C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_005/W_deposited.png",
+          "size": 10631105,
+          "sha256": "290da5c7c3f89a3b194a6009003a8f40b937341482b296e01a9e8c9487430a3b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_005/A_remains.png",
+          "size": 10631105,
+          "sha256": "290da5c7c3f89a3b194a6009003a8f40b937341482b296e01a9e8c9487430a3b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_005/A_partial.png",
+          "size": 10616803,
+          "sha256": "006624b52e2ca1e1c1e60d1bfe542e3d78b6c557120e5c0c871da89a43788fe1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_005/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_005/metadata.json",
+        "size": 9643,
+        "sha256": "aba91b9a66871dbe36248a4583785cf39c980444922046a446eb9754e2731e72",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C006O01",
+          "L07C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C006O01",
+          "L07C006O02"
+        ],
+        "partial": [
+          "L07C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_006/W_deposited.png",
+          "size": 10626477,
+          "sha256": "99e6254373eab23dd61e5da760def71673ecff2cafa24d9bb8867e7f8dba526d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_006/A_remains.png",
+          "size": 10626477,
+          "sha256": "99e6254373eab23dd61e5da760def71673ecff2cafa24d9bb8867e7f8dba526d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_006/A_partial.png",
+          "size": 10616803,
+          "sha256": "006624b52e2ca1e1c1e60d1bfe542e3d78b6c557120e5c0c871da89a43788fe1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_006/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_006/metadata.json",
+        "size": 9876,
+        "sha256": "fa7193e01cb7c478860e4838695cb3de40809b9a5a1d225efd3bd0ddd48c41b3",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C007O01",
+          "L07C007O02",
+          "L07C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C007O01",
+          "L07C007O02",
+          "L07C007O03"
+        ],
+        "partial": [
+          "L07C007O01",
+          "L07C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_007/W_deposited.png",
+          "size": 10646344,
+          "sha256": "1f71c6fbac2bd94f668a116c99a4a07815e65932ad6699f4dc2b5a7d3b670c1f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_007/A_remains.png",
+          "size": 10646344,
+          "sha256": "1f71c6fbac2bd94f668a116c99a4a07815e65932ad6699f4dc2b5a7d3b670c1f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_007/A_partial.png",
+          "size": 10628270,
+          "sha256": "a0df4826c5710846a0f5135d86dabf3c2203f896a8190974d650731f47bb87a9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_007/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_007/metadata.json",
+        "size": 11946,
+        "sha256": "9957b9afffd6582d674568dc0d81f6926d5e6bd48a212b16a41fb885578d51de",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 7",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L07C008O01",
+          "L07C008O02",
+          "L07C008O03",
+          "L07C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L07C008O02",
+          "L07C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L07C008O01",
+          "L07C008O02",
+          "L07C008O03",
+          "L07C008O04"
+        ],
+        "partial": [
+          "L07C008O01",
+          "L07C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 7/scenarios/case_008/W_deposited.png",
+          "size": 10649222,
+          "sha256": "25caba96755345d923b6cc653a371af28f624a0603d8cde34e2b5b37d94f2a2c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 7/scenarios/case_008/A_remains.png",
+          "size": 10649222,
+          "sha256": "25caba96755345d923b6cc653a371af28f624a0603d8cde34e2b5b37d94f2a2c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 7/scenarios/case_008/A_partial.png",
+          "size": 10631105,
+          "sha256": "290da5c7c3f89a3b194a6009003a8f40b937341482b296e01a9e8c9487430a3b",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 7/scenarios/case_008/A_removed.png",
+          "size": 10613459,
+          "sha256": "a4424993a22643c6eabe160af4f4ca49b74eb7b87243337cfa0ddce31c906535",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 7/scenarios/case_008/metadata.json",
+        "size": 13693,
+        "sha256": "21266f94e154e34ad2951c3b24fddb4bdd587129c5fd7686436ed3f04094ca5a",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L08C001O01",
+          "L08C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C001O01",
+          "L08C001O02"
+        ],
+        "partial": [
+          "L08C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_001/W_deposited.png",
+          "size": 10833465,
+          "sha256": "42a93dd0a26210a658d7ea1a6fb9329f1563f081bae271d8a789d6a8567acbc5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_001/A_remains.png",
+          "size": 10833465,
+          "sha256": "42a93dd0a26210a658d7ea1a6fb9329f1563f081bae271d8a789d6a8567acbc5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_001/A_partial.png",
+          "size": 10799732,
+          "sha256": "00303f45748a4d4dc874edc890d3365e30fdf68dd1d2d2263a1472cb44ae0cf1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_001/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_001/metadata.json",
+        "size": 9358,
+        "sha256": "897eb53a2e86b375edb764650078103109732653f5dc54062c8baf05891832ba",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L08C002O01",
+          "L08C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C002O01",
+          "L08C002O02"
+        ],
+        "partial": [
+          "L08C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_002/W_deposited.png",
+          "size": 10809195,
+          "sha256": "76c7e9840b5f2c0e6a84bcf82fba4fd97f028f96c8b750cd0d3441b78830b2fe",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_002/A_remains.png",
+          "size": 10809195,
+          "sha256": "76c7e9840b5f2c0e6a84bcf82fba4fd97f028f96c8b750cd0d3441b78830b2fe",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_002/A_partial.png",
+          "size": 10768914,
+          "sha256": "730b0ef1584b0edd199e63d480425e16e786ab9f2c7c8a21d8faa9923258963a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_002/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_002/metadata.json",
+        "size": 9466,
+        "sha256": "2301de0f3a6b161c3c77266e515b3d2a21248de9e82ce0d28ff318a4bd87e849",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L08C003O01",
+          "L08C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C003O01",
+          "L08C003O02"
+        ],
+        "partial": [
+          "L08C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_003/W_deposited.png",
+          "size": 10808837,
+          "sha256": "a22c74759ca44fbbb2b12876bd69d2fa4f317ac900acabb8fecfe5ef89ac8373",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_003/A_remains.png",
+          "size": 10808837,
+          "sha256": "a22c74759ca44fbbb2b12876bd69d2fa4f317ac900acabb8fecfe5ef89ac8373",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_003/A_partial.png",
+          "size": 10768319,
+          "sha256": "f7487a1afb010b7713f606a15800f3b25990462deee89e08d8b813a954d4f31e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_003/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_003/metadata.json",
+        "size": 9877,
+        "sha256": "2dc2170c24aff2a877b9c28aab4aa42b90cd871d60b13a06fd9526ab3a6497b0",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "cardboard_box_dominant",
+      "remaining": {
+        "remains": [
+          "L08C004O01",
+          "L08C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C004O01",
+          "L08C004O02"
+        ],
+        "partial": [
+          "L08C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_004/W_deposited.png",
+          "size": 10809697,
+          "sha256": "69083c3638120384ae663d0b1e44247e9b5aed772bf7f70c6616faff9e8c80a3",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_004/A_remains.png",
+          "size": 10809697,
+          "sha256": "69083c3638120384ae663d0b1e44247e9b5aed772bf7f70c6616faff9e8c80a3",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_004/A_partial.png",
+          "size": 10768914,
+          "sha256": "730b0ef1584b0edd199e63d480425e16e786ab9f2c7c8a21d8faa9923258963a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_004/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_004/metadata.json",
+        "size": 8767,
+        "sha256": "806c8eb0e00e9f7c17e26178b53c972ddf994e7e55c15000756991b0ce7d49ca",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "cardboard_box_dominant",
+      "remaining": {
+        "remains": [
+          "L08C005O01",
+          "L08C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C005O01",
+          "L08C005O02"
+        ],
+        "partial": [
+          "L08C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_005/W_deposited.png",
+          "size": 10812487,
+          "sha256": "ef6508d30aca73dda36a4c55cd602725d650dc5c551e8f1408d06ca186dda4e8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_005/A_remains.png",
+          "size": 10812487,
+          "sha256": "ef6508d30aca73dda36a4c55cd602725d650dc5c551e8f1408d06ca186dda4e8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_005/A_partial.png",
+          "size": 10768319,
+          "sha256": "f7487a1afb010b7713f606a15800f3b25990462deee89e08d8b813a954d4f31e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_005/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_005/metadata.json",
+        "size": 9177,
+        "sha256": "0c3233795baf4bbf06b6cf44241c1c3f88f299b005b116dd5eee982f3c7fcac1",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "cardboard_box_dominant",
+      "remaining": {
+        "remains": [
+          "L08C006O01",
+          "L08C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C006O01",
+          "L08C006O02"
+        ],
+        "partial": [
+          "L08C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_006/W_deposited.png",
+          "size": 10785399,
+          "sha256": "f2dc54da0c8576c627368a1171b21253b52094d3491dbf6b97559bb094c6098a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_006/A_remains.png",
+          "size": 10785399,
+          "sha256": "f2dc54da0c8576c627368a1171b21253b52094d3491dbf6b97559bb094c6098a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_006/A_partial.png",
+          "size": 10768319,
+          "sha256": "f7487a1afb010b7713f606a15800f3b25990462deee89e08d8b813a954d4f31e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_006/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_006/metadata.json",
+        "size": 9284,
+        "sha256": "9e3be3c2edb168feb2d69fdae79c6b3f77d7cb1e1ae5b23ce80c7ae136eb5196",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L08C007O01",
+          "L08C007O02",
+          "L08C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C007O01",
+          "L08C007O02",
+          "L08C007O03"
+        ],
+        "partial": [
+          "L08C007O01",
+          "L08C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_007/W_deposited.png",
+          "size": 10842022,
+          "sha256": "6ef21c19b3b142e7f958dd343b4c82be23bf9970fd40bda5b75adad1820aa330",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_007/A_remains.png",
+          "size": 10842022,
+          "sha256": "6ef21c19b3b142e7f958dd343b4c82be23bf9970fd40bda5b75adad1820aa330",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_007/A_partial.png",
+          "size": 10799732,
+          "sha256": "00303f45748a4d4dc874edc890d3365e30fdf68dd1d2d2263a1472cb44ae0cf1",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_007/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_007/metadata.json",
+        "size": 10871,
+        "sha256": "c573d27cbe60bae05de34b8db4ae74453eb97f3365311c31f5d8c6c295e78946",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 8",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L08C008O01",
+          "L08C008O02",
+          "L08C008O03",
+          "L08C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L08C008O02",
+          "L08C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L08C008O01",
+          "L08C008O02",
+          "L08C008O03",
+          "L08C008O04"
+        ],
+        "partial": [
+          "L08C008O01",
+          "L08C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 8/scenarios/case_008/W_deposited.png",
+          "size": 10852020,
+          "sha256": "17244233036eb12ea81ee1413120d4a0777b0e06581fbf772b2fcf6ac632fbaa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 8/scenarios/case_008/A_remains.png",
+          "size": 10852020,
+          "sha256": "17244233036eb12ea81ee1413120d4a0777b0e06581fbf772b2fcf6ac632fbaa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 8/scenarios/case_008/A_partial.png",
+          "size": 10812487,
+          "sha256": "ef6508d30aca73dda36a4c55cd602725d650dc5c551e8f1408d06ca186dda4e8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 8/scenarios/case_008/A_removed.png",
+          "size": 10749872,
+          "sha256": "62a6ae139ec8b992eb9c054316a234bb45da3c699c9b8bfb6ead330763e67fde",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 8/scenarios/case_008/metadata.json",
+        "size": 12742,
+        "sha256": "68a1480fd7efe95151579186ec6d9ee01c93593ffd3b712c0aa0e5f2afdace8c",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L09C001O01",
+          "L09C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C001O01",
+          "L09C001O02"
+        ],
+        "partial": [
+          "L09C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_001/W_deposited.png",
+          "size": 16290669,
+          "sha256": "206df2c88b1246d2df34e959f0852530bf00e92987f51e2ecabee705b21185f9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_001/A_remains.png",
+          "size": 16290669,
+          "sha256": "206df2c88b1246d2df34e959f0852530bf00e92987f51e2ecabee705b21185f9",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_001/A_partial.png",
+          "size": 16272811,
+          "sha256": "92c74cbf3371cb06aaeae1a29c17177b10ce1831593b72c1f46663c36b838794",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_001/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_001/metadata.json",
+        "size": 10715,
+        "sha256": "b4a5610118ddce58788d74332ac84e41f9b37e3f9b6cf681ed5af2ad05b18c21",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L09C002O01",
+          "L09C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C002O01",
+          "L09C002O02"
+        ],
+        "partial": [
+          "L09C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_002/W_deposited.png",
+          "size": 16260549,
+          "sha256": "84dddb0998418a9da11ba4502d29844a6d6b848719015da7284470b3e532b983",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_002/A_remains.png",
+          "size": 16260549,
+          "sha256": "84dddb0998418a9da11ba4502d29844a6d6b848719015da7284470b3e532b983",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_002/A_partial.png",
+          "size": 16244068,
+          "sha256": "8137d32d328a08fddf660f29a10413ab0ef983412eecec0f0ea428d541b2bd94",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_002/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_002/metadata.json",
+        "size": 10663,
+        "sha256": "517efb195d54509e2d73ad938867c0944400bdf07ccb2e5264bdcad28e92e49e",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L09C003O01",
+          "L09C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C003O01",
+          "L09C003O02"
+        ],
+        "partial": [
+          "L09C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_003/W_deposited.png",
+          "size": 16260559,
+          "sha256": "83a70b4a69796c9344f3b0497aeebcf22d8f033aab3885ed298bd2b27819c98e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_003/A_remains.png",
+          "size": 16260559,
+          "sha256": "83a70b4a69796c9344f3b0497aeebcf22d8f033aab3885ed298bd2b27819c98e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_003/A_partial.png",
+          "size": 16241975,
+          "sha256": "1aa65d7b5c2b7b7f7805dd5211f3260b60a032adf92315b7ce4b499e39dbf4b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_003/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_003/metadata.json",
+        "size": 11215,
+        "sha256": "b6ef5e0cbe3311f7c25a0b5bcf90a73bfe347c2af79c63b8c46138673b3b0c6b",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L09C004O01",
+          "L09C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C004O01",
+          "L09C004O02"
+        ],
+        "partial": [
+          "L09C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_004/W_deposited.png",
+          "size": 16287307,
+          "sha256": "ec4a52b27016ea76b4b8843036a36f188ccda4ede1cbccadd9756b24e3c7a557",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_004/A_remains.png",
+          "size": 16287307,
+          "sha256": "ec4a52b27016ea76b4b8843036a36f188ccda4ede1cbccadd9756b24e3c7a557",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_004/A_partial.png",
+          "size": 16244068,
+          "sha256": "8137d32d328a08fddf660f29a10413ab0ef983412eecec0f0ea428d541b2bd94",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_004/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_004/metadata.json",
+        "size": 11330,
+        "sha256": "ad043ccb2a57e132eac2a497df153185773ea2c21f1e173506c8546f320129b8",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "shopping_sack_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L09C005O01",
+          "L09C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C005O01",
+          "L09C005O02"
+        ],
+        "partial": [
+          "L09C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_005/W_deposited.png",
+          "size": 16283958,
+          "sha256": "b02c2f308484b660504158d43aa631bc730144a0f9d0b396fc8ad73031997013",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_005/A_remains.png",
+          "size": 16283958,
+          "sha256": "b02c2f308484b660504158d43aa631bc730144a0f9d0b396fc8ad73031997013",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_005/A_partial.png",
+          "size": 16241975,
+          "sha256": "1aa65d7b5c2b7b7f7805dd5211f3260b60a032adf92315b7ce4b499e39dbf4b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_005/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_005/metadata.json",
+        "size": 11890,
+        "sha256": "017429e8d8245020fc12b52e74fb632b375e120c10717738ad59559c28b4f07c",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "cardboard_box_dominant",
+      "remaining": {
+        "remains": [
+          "L09C006O01",
+          "L09C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C006O01",
+          "L09C006O02"
+        ],
+        "partial": [
+          "L09C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_006/W_deposited.png",
+          "size": 16256160,
+          "sha256": "09bc6dbb49b52dc1cdbecd5111274f02759f1af6b8e3b7b901154a935e555c7f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_006/A_remains.png",
+          "size": 16256160,
+          "sha256": "09bc6dbb49b52dc1cdbecd5111274f02759f1af6b8e3b7b901154a935e555c7f",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_006/A_partial.png",
+          "size": 16241975,
+          "sha256": "1aa65d7b5c2b7b7f7805dd5211f3260b60a032adf92315b7ce4b499e39dbf4b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_006/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_006/metadata.json",
+        "size": 10658,
+        "sha256": "c71fb2783a6dbd7a4fc4b4fbd8fc3833f5810cfe8dfe562378b65923978ea370",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L09C007O01",
+          "L09C007O02",
+          "L09C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C007O01",
+          "L09C007O02",
+          "L09C007O03"
+        ],
+        "partial": [
+          "L09C007O01",
+          "L09C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_007/W_deposited.png",
+          "size": 16302236,
+          "sha256": "14576e202eae884d08797139c1e74f0daf739fb211328abd3955e04b1ceb7d95",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_007/A_remains.png",
+          "size": 16302236,
+          "sha256": "14576e202eae884d08797139c1e74f0daf739fb211328abd3955e04b1ceb7d95",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_007/A_partial.png",
+          "size": 16273317,
+          "sha256": "1d64a442f04409ef5bf6aee34c5f9a0be8457b6853a0be9405f07f76b4f24f1a",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_007/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_007/metadata.json",
+        "size": 13807,
+        "sha256": "6beeeea0823f94deadcae1bc94212117f9f37775c795a289074966881d268da2",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 9",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L09C008O01",
+          "L09C008O02",
+          "L09C008O03",
+          "L09C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L09C008O02",
+          "L09C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L09C008O01",
+          "L09C008O02",
+          "L09C008O03",
+          "L09C008O04"
+        ],
+        "partial": [
+          "L09C008O01",
+          "L09C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 9/scenarios/case_008/W_deposited.png",
+          "size": 16312110,
+          "sha256": "c31f99df2cff0542ab9a96fe8e11ba29c840b7ae34d992d40ba18616ae20d2f4",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 9/scenarios/case_008/A_remains.png",
+          "size": 16312110,
+          "sha256": "c31f99df2cff0542ab9a96fe8e11ba29c840b7ae34d992d40ba18616ae20d2f4",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 9/scenarios/case_008/A_partial.png",
+          "size": 16283958,
+          "sha256": "b02c2f308484b660504158d43aa631bc730144a0f9d0b396fc8ad73031997013",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 9/scenarios/case_008/A_removed.png",
+          "size": 16229190,
+          "sha256": "d070065423086564a58dc7f083a90bb81c16340b3ec36bd79ce2b90e371524e7",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 9/scenarios/case_008/metadata.json",
+        "size": 16248,
+        "sha256": "b79fa6d22823306a08a0f8f2b2944060ae683624099a2d8a589c0c9d73ae6c83",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L10C001O01",
+          "L10C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C001O01",
+          "L10C001O02"
+        ],
+        "partial": [
+          "L10C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_001/W_deposited.png",
+          "size": 11970019,
+          "sha256": "ee8f5025ef7c7da3560ed749235787b6c689a4e68e37585051905b14ad3f3a82",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_001/A_remains.png",
+          "size": 11970019,
+          "sha256": "ee8f5025ef7c7da3560ed749235787b6c689a4e68e37585051905b14ad3f3a82",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_001/A_partial.png",
+          "size": 11936114,
+          "sha256": "ad73e36fdcdf8c017e9c4aae1c738d056537417ebea9642c33b82038b432f379",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_001/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_001/metadata.json",
+        "size": 10223,
+        "sha256": "21e70c5b64c669c45918adaf044aea18cf1cead89c2e17bc419bc21896dd5db6",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L10C002O01",
+          "L10C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C002O01",
+          "L10C002O02"
+        ],
+        "partial": [
+          "L10C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_002/W_deposited.png",
+          "size": 11956392,
+          "sha256": "c9b9e895a0075bb9a8c8da13c8b441744b8de62283a5c870378891513373e08c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_002/A_remains.png",
+          "size": 11956392,
+          "sha256": "c9b9e895a0075bb9a8c8da13c8b441744b8de62283a5c870378891513373e08c",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_002/A_partial.png",
+          "size": 11920431,
+          "sha256": "be4f2ba7eea5b27c2c5c4dac7026054cbd3768f56c78adf2d5dc78f4eb7a2c58",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_002/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_002/metadata.json",
+        "size": 9946,
+        "sha256": "11f9db3b60234c7eb26f9a9372750b9bd9ef2fc7f8095f83515f442d81fee50c",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L10C003O01",
+          "L10C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C003O01",
+          "L10C003O02"
+        ],
+        "partial": [
+          "L10C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_003/W_deposited.png",
+          "size": 11973728,
+          "sha256": "c7dc1e7a5c8d40be18a6939e71c7e5c4b0207227d57839d739d569b50f8cd807",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_003/A_remains.png",
+          "size": 11973728,
+          "sha256": "c7dc1e7a5c8d40be18a6939e71c7e5c4b0207227d57839d739d569b50f8cd807",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_003/A_partial.png",
+          "size": 11933525,
+          "sha256": "2d482c416731c39c540dcc467f71fe6994c5fc230dd975f437367f0e2ad2be94",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_003/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_003/metadata.json",
+        "size": 10443,
+        "sha256": "a97f65533debf4c23328672ef9800335cef56a42cf5ab1ee201fbf377ec30253",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L10C004O01",
+          "L10C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C004O01",
+          "L10C004O02"
+        ],
+        "partial": [
+          "L10C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_004/W_deposited.png",
+          "size": 11956003,
+          "sha256": "23fc4627a5c57752affc54de41edd17713efcae1b9c1e3e0f5ebcd12afdacac2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_004/A_remains.png",
+          "size": 11956003,
+          "sha256": "23fc4627a5c57752affc54de41edd17713efcae1b9c1e3e0f5ebcd12afdacac2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_004/A_partial.png",
+          "size": 11920431,
+          "sha256": "be4f2ba7eea5b27c2c5c4dac7026054cbd3768f56c78adf2d5dc78f4eb7a2c58",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_004/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_004/metadata.json",
+        "size": 9632,
+        "sha256": "cc93c7f28a6cda78f122f09a9d7a7b4764be16f2ba05c7c156c05b9b16be8a60",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "black_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L10C005O01",
+          "L10C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C005O01",
+          "L10C005O02"
+        ],
+        "partial": [
+          "L10C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_005/W_deposited.png",
+          "size": 11977241,
+          "sha256": "04e1f923efb700806a2d25d0f412ea232402714a6ae29c05b944248009045bd0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_005/A_remains.png",
+          "size": 11977241,
+          "sha256": "04e1f923efb700806a2d25d0f412ea232402714a6ae29c05b944248009045bd0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_005/A_partial.png",
+          "size": 11933525,
+          "sha256": "2d482c416731c39c540dcc467f71fe6994c5fc230dd975f437367f0e2ad2be94",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_005/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_005/metadata.json",
+        "size": 10129,
+        "sha256": "2d8f76742e1e155e8e38c52424cd3d758ef1ab908cd663a86e7c4a6038885fc0",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L10C006O01",
+          "L10C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C006O01",
+          "L10C006O02"
+        ],
+        "partial": [
+          "L10C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_006/W_deposited.png",
+          "size": 11961608,
+          "sha256": "3cd29fed1fcc05bc9517a09b35f6c73be9ed47160b165f5d2161bd6fc1601a4d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_006/A_remains.png",
+          "size": 11961608,
+          "sha256": "3cd29fed1fcc05bc9517a09b35f6c73be9ed47160b165f5d2161bd6fc1601a4d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_006/A_partial.png",
+          "size": 11933525,
+          "sha256": "2d482c416731c39c540dcc467f71fe6994c5fc230dd975f437367f0e2ad2be94",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_006/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_006/metadata.json",
+        "size": 9860,
+        "sha256": "54c2a0fda429b0d2c543f2320836eb4411379c55cd6385f74801363069d222be",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L10C007O01",
+          "L10C007O02",
+          "L10C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C007O01",
+          "L10C007O02",
+          "L10C007O03"
+        ],
+        "partial": [
+          "L10C007O01",
+          "L10C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_007/W_deposited.png",
+          "size": 11986243,
+          "sha256": "f560f20e513cc90cac98001ffa37e9c9c81f04bbb89f16e73477fa801d951946",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_007/A_remains.png",
+          "size": 11986243,
+          "sha256": "f560f20e513cc90cac98001ffa37e9c9c81f04bbb89f16e73477fa801d951946",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_007/A_partial.png",
+          "size": 11936114,
+          "sha256": "ad73e36fdcdf8c017e9c4aae1c738d056537417ebea9642c33b82038b432f379",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_007/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_007/metadata.json",
+        "size": 11743,
+        "sha256": "8413090dba3b6da7a258bb9a1302756adfc974f2b885991959ee2479adeb99f6",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 10",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "mixed_bag_and_box",
+      "remaining": {
+        "remains": [
+          "L10C008O01",
+          "L10C008O02",
+          "L10C008O03",
+          "L10C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L10C008O02",
+          "L10C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L10C008O01",
+          "L10C008O02",
+          "L10C008O03",
+          "L10C008O04"
+        ],
+        "partial": [
+          "L10C008O01",
+          "L10C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 10/scenarios/case_008/W_deposited.png",
+          "size": 12027372,
+          "sha256": "504aafb871d54db54dd5db80899fb9a7f98ae93b4e0512e63a666911bcec55ad",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 10/scenarios/case_008/A_remains.png",
+          "size": 12027372,
+          "sha256": "504aafb871d54db54dd5db80899fb9a7f98ae93b4e0512e63a666911bcec55ad",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 10/scenarios/case_008/A_partial.png",
+          "size": 11977241,
+          "sha256": "04e1f923efb700806a2d25d0f412ea232402714a6ae29c05b944248009045bd0",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 10/scenarios/case_008/A_removed.png",
+          "size": 11892436,
+          "sha256": "61223c937140675a9834fc93b2f150332cff126423145a4635229988bfdf295d",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 10/scenarios/case_008/metadata.json",
+        "size": 13760,
+        "sha256": "8d91ebbb52a560f131a94633a25212bd449c83651ddbe839a3af85af1814ffaa",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_001",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L11C001O01",
+          "L11C001O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C001O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C001O01",
+          "L11C001O02"
+        ],
+        "partial": [
+          "L11C001O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_001/W_deposited.png",
+          "size": 10661908,
+          "sha256": "6330383017b387102735c509f1cb836a52e76e24687bbbb4148730ada962f067",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_001/A_remains.png",
+          "size": 10661908,
+          "sha256": "6330383017b387102735c509f1cb836a52e76e24687bbbb4148730ada962f067",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_001/A_partial.png",
+          "size": 10633754,
+          "sha256": "28c0f385153e55fc156cdc55f7824a8f874091170241366c283efbfddc70d6c5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_001/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_001/metadata.json",
+        "size": 10979,
+        "sha256": "31156532a1d4590a1da2ac990f74009ac37c305ddf2eb7e008a69bc736a5fdeb",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_002",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L11C002O01",
+          "L11C002O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C002O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C002O01",
+          "L11C002O02"
+        ],
+        "partial": [
+          "L11C002O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_002/W_deposited.png",
+          "size": 10675891,
+          "sha256": "2c0d17f7c2c3f771aa61fa057c00423dd2a0a8fdd75b9bbd688c1f6971a9e88e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_002/A_remains.png",
+          "size": 10675891,
+          "sha256": "2c0d17f7c2c3f771aa61fa057c00423dd2a0a8fdd75b9bbd688c1f6971a9e88e",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_002/A_partial.png",
+          "size": 10638269,
+          "sha256": "dad3ddf60a439be258b6b3f2063805bb95f94ca319ccfedee3681fdb8a80f8fa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_002/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_002/metadata.json",
+        "size": 10359,
+        "sha256": "de874af561a69ec8ad8a9a13bcb6e851b6a6ed6b4aa61fb13250bb9aa17ef563",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_003",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "bulky_item_dominant",
+      "remaining": {
+        "remains": [
+          "L11C003O01",
+          "L11C003O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C003O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C003O01",
+          "L11C003O02"
+        ],
+        "partial": [
+          "L11C003O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_003/W_deposited.png",
+          "size": 10652329,
+          "sha256": "99377777af44654e252bb6e536b077f7015d12b1c71507454cd9245db67db769",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_003/A_remains.png",
+          "size": 10652329,
+          "sha256": "99377777af44654e252bb6e536b077f7015d12b1c71507454cd9245db67db769",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_003/A_partial.png",
+          "size": 10615345,
+          "sha256": "3f6188abb6d919a62e49c1a0a5c0e3bfa61e3f49948c0930a6b3a65f07c587c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_003/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_003/metadata.json",
+        "size": 11185,
+        "sha256": "5d4ac69a71872a719704989faca3c506094b16d19228f6f85560ff7c9ec985c6",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_004",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L11C004O01",
+          "L11C004O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C004O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C004O01",
+          "L11C004O02"
+        ],
+        "partial": [
+          "L11C004O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_004/W_deposited.png",
+          "size": 10689009,
+          "sha256": "11ae0252de07827b42f132f911faf62c422a5ba385dced0b1091f82f6ec0bdc4",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_004/A_remains.png",
+          "size": 10689009,
+          "sha256": "11ae0252de07827b42f132f911faf62c422a5ba385dced0b1091f82f6ec0bdc4",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_004/A_partial.png",
+          "size": 10638269,
+          "sha256": "dad3ddf60a439be258b6b3f2063805bb95f94ca319ccfedee3681fdb8a80f8fa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_004/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_004/metadata.json",
+        "size": 10991,
+        "sha256": "606c6aa371da106a15dc48771a4e5e9ec34bdb370afdbd6cd4bd7e14e06d584b",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_005",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "white_light_bag_dominant",
+      "remaining": {
+        "remains": [
+          "L11C005O01",
+          "L11C005O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C005O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C005O01",
+          "L11C005O02"
+        ],
+        "partial": [
+          "L11C005O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_005/W_deposited.png",
+          "size": 10665833,
+          "sha256": "1255738b4c9fe66b30d75db4410df99d76126eb503f18211f43df66b005cb0fa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_005/A_remains.png",
+          "size": 10665833,
+          "sha256": "1255738b4c9fe66b30d75db4410df99d76126eb503f18211f43df66b005cb0fa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_005/A_partial.png",
+          "size": 10615345,
+          "sha256": "3f6188abb6d919a62e49c1a0a5c0e3bfa61e3f49948c0930a6b3a65f07c587c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_005/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_005/metadata.json",
+        "size": 11825,
+        "sha256": "9722747fb3c2beb2f8ca80e34f33cf7fa32b2d02418a49c30fc840b4e2312576",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_006",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L11C006O01",
+          "L11C006O02"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C006O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C006O01",
+          "L11C006O02"
+        ],
+        "partial": [
+          "L11C006O01"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_006/W_deposited.png",
+          "size": 10661492,
+          "sha256": "48f74f1e359ce043efcb1a2de25d0189afc4c3a3a3556e85c8ac8ba986ed48fb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_006/A_remains.png",
+          "size": 10661492,
+          "sha256": "48f74f1e359ce043efcb1a2de25d0189afc4c3a3a3556e85c8ac8ba986ed48fb",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_006/A_partial.png",
+          "size": 10615345,
+          "sha256": "3f6188abb6d919a62e49c1a0a5c0e3bfa61e3f49948c0930a6b3a65f07c587c2",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_006/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_006/metadata.json",
+        "size": 11207,
+        "sha256": "acdd4cad29a7c2b698f16cb81fd73c3469360bb878e3d39e550a3055ab0fbcec",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_007",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L11C007O01",
+          "L11C007O02",
+          "L11C007O03"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C007O02"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C007O01",
+          "L11C007O02",
+          "L11C007O03"
+        ],
+        "partial": [
+          "L11C007O01",
+          "L11C007O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_007/W_deposited.png",
+          "size": 10717219,
+          "sha256": "0f3704c4088e3694db4c79cdf1f3ead724c424560a4b25a7a8504700569f2403",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_007/A_remains.png",
+          "size": 10717219,
+          "sha256": "0f3704c4088e3694db4c79cdf1f3ead724c424560a4b25a7a8504700569f2403",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_007/A_partial.png",
+          "size": 10633754,
+          "sha256": "28c0f385153e55fc156cdc55f7824a8f874091170241366c283efbfddc70d6c5",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_007/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_007/metadata.json",
+        "size": 13170,
+        "sha256": "ce1fbcc8e287d5a526c7a88afef6295937f6a500161a75d72ec0be887c1ea678",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    },
+    {
+      "location": "location 11",
+      "case": "case_008",
+      "case_drive_url": "[PRIVATE_REFERENCE_REMOVED]",
+      "split": "synthetic_train_only",
+      "composition": "flattened_carton_dominant",
+      "remaining": {
+        "remains": [
+          "L11C008O01",
+          "L11C008O02",
+          "L11C008O03",
+          "L11C008O04"
+        ],
+        "removed": [],
+        "partial": [
+          "L11C008O02",
+          "L11C008O04"
+        ]
+      },
+      "removed": {
+        "remains": [],
+        "removed": [
+          "L11C008O01",
+          "L11C008O02",
+          "L11C008O03",
+          "L11C008O04"
+        ],
+        "partial": [
+          "L11C008O01",
+          "L11C008O03"
+        ]
+      },
+      "images": {
+        "W": {
+          "path": "location 11/scenarios/case_008/W_deposited.png",
+          "size": 10739481,
+          "sha256": "6d7a68711213dcdc383691f70463c88359442be24cd59e9ffb0bc63dae6339b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_remains": {
+          "path": "location 11/scenarios/case_008/A_remains.png",
+          "size": 10739481,
+          "sha256": "6d7a68711213dcdc383691f70463c88359442be24cd59e9ffb0bc63dae6339b8",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_partial": {
+          "path": "location 11/scenarios/case_008/A_partial.png",
+          "size": 10665833,
+          "sha256": "1255738b4c9fe66b30d75db4410df99d76126eb503f18211f43df66b005cb0fa",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        },
+        "A_removed": {
+          "path": "location 11/scenarios/case_008/A_removed.png",
+          "size": 10583089,
+          "sha256": "dbfd827a4b2b516a88ccf1fb99c24f3899e71526bd11f283efa3c58de3fb6725",
+          "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+        }
+      },
+      "metadata": {
+        "path": "location 11/scenarios/case_008/metadata.json",
+        "size": 16956,
+        "sha256": "d0f10daaa55ce74c7b5a973162a90cf19cb866688f91c0157a7a9a524f04c2c9",
+        "drive_id": "[PRIVATE_REFERENCE_REMOVED]"
+      }
+    }
+  ]
+}

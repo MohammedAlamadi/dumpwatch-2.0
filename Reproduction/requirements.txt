@@ -1,0 +1,9 @@
+# Use a compatible torch/torchvision pair for the selected CPU or GPU runtime.
+# FFmpeg and FFprobe must be on PATH.
+numpy
+Pillow>=11
+scikit-learn
+joblib
+torch
+torchvision
+

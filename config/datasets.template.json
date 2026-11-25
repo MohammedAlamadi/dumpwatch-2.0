@@ -1,0 +1,6 @@
+{
+  "task_a_root": "Data/Task_A",
+  "task_b_real_zip": "Data/Real/dumpwatch_real_dataset.zip",
+  "synthetic_root": "Data/Synthetic_V1",
+  "synthetic_layout": "drive"
+}

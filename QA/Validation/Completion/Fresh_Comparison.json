@@ -1,0 +1,13 @@
+{
+  "all_metric_keys_values_labels_and_matrices_match": true,
+  "classification_and_onsets_exact": true,
+  "scores_tolerance": {
+    "absolute": 0.0001,
+    "relative": 0.0001
+  },
+  "max_absolute_score_delta": {
+    "majority": 0.0,
+    "motion_svm": 2.822033684513059e-08,
+    "resnet18_gru": 5.21540641784668e-06
+  }
+}

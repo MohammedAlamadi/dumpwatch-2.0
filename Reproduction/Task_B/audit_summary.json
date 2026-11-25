@@ -1,0 +1,83 @@
+{
+  "allowed_locations": [
+    "location_01",
+    "location_02",
+    "location_03",
+    "location_05",
+    "location_06",
+    "location_07",
+    "location_08",
+    "location_09"
+  ],
+  "test_image_members_opened": 0,
+  "images": 116,
+  "captured_cases": 24,
+  "files_by_split": {
+    "train": 84,
+    "validation": 32
+  },
+  "photo_disposition": {
+    "shared_B0_context": 10,
+    "exact_W_inspection_copy_excluded": 4,
+    "held_or_duplicate_candidate": 15,
+    "alternate_view_within_case": 37,
+    "selected": 50
+  },
+  "counts": {
+    "training": {
+      "fully_cleared": 6,
+      "waste_still_present": 14
+    },
+    "development": {
+      "fully_cleared": 2,
+      "waste_still_present": 6
+    }
+  },
+  "selected_distinct_case_count": 20,
+  "distinct_W_references": 22,
+  "unique_inspections": 28,
+  "exact_groups": [
+    [
+      "real/location_01/case_01_small/A_partial/photo_3_2026-11-21_00-03-54.jpg",
+      "real/location_01/case_01_small/W/photo_3_2026-11-21_00-03-54.jpg"
+    ],
+    [
+      "real/location_01/case_01_small/A_removed/photo_4_2026-11-21_00-03-54.jpg",
+      "real/location_01/case_02_medium/A_removed/photo_4_2026-11-21_00-03-54.jpg"
+    ],
+    [
+      "real/location_02/case_02_medium/A_removed/photo_28_2026-11-21_00-03-54.jpg",
+      "real/location_02/case_03_large/A_removed/photo_28_2026-11-21_00-03-54.jpg"
+    ],
+    [
+      "real/location_03/case_01_small/A_partial/photo_31_2026-11-21_00-03-54.jpg",
+      "real/location_03/case_01_small/W/photo_31_2026-11-21_00-03-54.jpg"
+    ],
+    [
+      "real/location_03/case_02_medium/A_removed/photo_45_2026-11-21_00-03-54.jpg",
+      "real/location_03/case_03_large/A_removed/photo_45_2026-11-21_00-03-54.jpg"
+    ],
+    [
+      "real/location_06/case_01_small/A_partial/photo_72_2026-11-21_00-03-55.jpg",
+      "real/location_06/case_01_small/W/photo_72_2026-11-21_00-03-55.jpg"
+    ],
+    [
+      "real/location_08/case_01_small/A_removed/photo_15_2026-11-21_00-04-40.jpg",
+      "real/location_08/case_02_medium/A_removed/photo_15_2026-11-21_00-04-40.jpg",
+      "real/location_08/case_03_large/A_removed/photo_15_2026-11-21_00-04-40.jpg"
+    ],
+    [
+      "real/location_09/case_01_small/A_partial/photo_17_2026-11-21_00-04-40.jpg",
+      "real/location_09/case_01_small/W/photo_17_2026-11-21_00-04-40.jpg"
+    ]
+  ],
+  "near_hash_candidates": [],
+  "pair_statuses": {
+    "exclude_exact_W_copy_no_partial_capture": 4,
+    "hold_shared_capture_provenance": 6,
+    "usable": 28,
+    "missing_inspection": 6,
+    "hold_view_coverage": 2,
+    "exclude_shared_duplicate": 2
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="630" viewBox="0 0 1080 630">
+<rect width="1080" height="630" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#172938">
+<text x="28" y="35" font-size="24">DumpWatch original dataset class counts</text>
+<text x="28" y="75" font-size="20">Task A - videos</text>
+<text x="28" y="108" font-size="16">train</text>
+<rect x="185" y="90" width="512.333" height="19" fill="#336699"/><text x="707.333" y="105" font-size="15">159 no dumping</text>
+<rect x="185" y="114" width="515.556" height="19" fill="#008866"/><text x="710.556" y="129" font-size="15">160 dumping</text>
+<text x="28" y="173" font-size="16">development</text>
+<rect x="185" y="155" width="132.111" height="19" fill="#336699"/><text x="327.111" y="170" font-size="15">41 no dumping</text>
+<rect x="185" y="179" width="128.889" height="19" fill="#008866"/><text x="323.889" y="194" font-size="15">40 dumping</text>
+<text x="28" y="238" font-size="16">holdout</text>
+<rect x="185" y="220" width="161.111" height="19" fill="#336699"/><text x="356.111" y="235" font-size="15">50 no dumping</text>
+<rect x="185" y="244" width="161.111" height="19" fill="#008866"/><text x="356.111" y="259" font-size="15">50 dumping</text>
+<text x="28" y="345" font-size="20">Task B - eligible pairs</text>
+<text x="28" y="378" font-size="16">training</text>
+<rect x="185" y="360" width="541.333" height="19" fill="#336699"/><text x="736.333" y="375" font-size="15">14 waste still present</text>
+<rect x="185" y="384" width="232.000" height="19" fill="#008866"/><text x="427.000" y="399" font-size="15">6 fully cleared</text>
+<text x="28" y="443" font-size="16">development</text>
+<rect x="185" y="425" width="232.000" height="19" fill="#336699"/><text x="427.000" y="440" font-size="15">6 waste still present</text>
+<rect x="185" y="449" width="77.333" height="19" fill="#008866"/><text x="272.333" y="464" font-size="15">2 fully cleared</text>
+<text x="28" y="508" font-size="16">test</text>
+<rect x="185" y="490" width="232.000" height="19" fill="#336699"/><text x="427.000" y="505" font-size="15">6 waste still present</text>
+<rect x="185" y="514" width="116.000" height="19" fill="#008866"/><text x="311.000" y="529" font-size="15">3 fully cleared</text>
+<text x="28" y="600" font-size="14">Task B counts are paired observations; related pairs are not independent incidents.</text>
+</g></svg>

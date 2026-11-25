@@ -1,0 +1,110 @@
+{
+  "settings": {
+    "hidden_layer_sizes": [
+      2
+    ],
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "alpha": 1.0,
+    "random_state": 37,
+    "tol": 0.0001,
+    "max_iter": 2000,
+    "max_fun": 15000
+  },
+  "feature_names": [
+    "RGB_MAE",
+    "top4_block_RGB_MAE",
+    "inspection_gradient_mean",
+    "inspection_minus_deposit_gradient_mean"
+  ],
+  "class_order": [
+    "waste_still_present",
+    "fully_cleared"
+  ],
+  "class_training_mae_medians": [
+    0.14626544713974,
+    0.13770951330661774
+  ],
+  "difference_threshold": 0.14198748022317886,
+  "majority": "waste_still_present",
+  "mean": [
+    0.14731287251093558,
+    0.3968860930097954,
+    0.04001168171609087,
+    -0.0021935114969632453
+  ],
+  "scale": [
+    0.047719625550767746,
+    0.12503950037390518,
+    0.018658938256692056,
+    0.006532567257511912
+  ],
+  "coefficients": [
+    [
+      [
+        0.4909304699072976,
+        -0.490931867718638
+      ],
+      [
+        -0.4549523175733195,
+        0.45588868987947634
+      ],
+      [
+        -0.4035669239790466,
+        0.40376030516166533
+      ],
+      [
+        0.08779536531475066,
+        -0.08773446637383824
+      ]
+    ],
+    [
+      [
+        0.8628350719752476
+      ],
+      [
+        -0.8626822875793644
+      ]
+    ]
+  ],
+  "intercepts": [
+    [
+      -0.28751474323540444,
+      0.2868237359207351
+    ],
+    [
+      -0.9497497241228204
+    ]
+  ],
+  "iterations": 20,
+  "loss": 0.4822499104190031,
+  "training_ids": [
+    "01_02_A_partial",
+    "01_03_A_partial",
+    "01_03_A_removed",
+    "03_02_A_partial",
+    "03_03_A_partial",
+    "05_01_A_partial",
+    "05_02_A_partial",
+    "05_03_A_partial",
+    "06_02_A_partial",
+    "06_02_A_removed",
+    "06_03_A_partial",
+    "06_03_A_removed",
+    "07_01_A_partial",
+    "07_01_A_removed",
+    "07_02_A_partial",
+    "07_02_A_removed",
+    "07_03_A_partial",
+    "09_02_A_partial",
+    "09_02_A_removed",
+    "09_03_A_partial"
+  ],
+  "dependencies": {
+    "numpy": "2.5.5",
+    "Pillow": "12.2.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.8.0"
+  }
+}

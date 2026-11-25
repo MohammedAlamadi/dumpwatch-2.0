@@ -1,0 +1,121 @@
+[
+  {
+    "file": "Provenance/Recovered_Cell_Hashes.json",
+    "change": "Machine-user path redaction only; numeric scientific values unchanged",
+    "original_sha256": "98ea02cfc45b0af630348fe558f72d04e88d17df5da9b1ece07ed4f4c47b555e",
+    "published_sha256": "96e868dfb368a75edc464a03da5ddb1a4d91dc2a85e9a106df16686cce5063eb"
+  },
+  {
+    "file": "Reproduction/DumpWatch_2.0_Reproduction.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "f609e4ada8311ea978954cd5df702726bf016ac84aea04c11341ea34ea8a16d6",
+    "published_sha256": "f609e4ada8311ea978954cd5df702726bf016ac84aea04c11341ea34ea8a16d6"
+  },
+  {
+    "file": "Training/Task_B/Selected_SVM/dumpwatch_task_b_final_frozen.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "b4174c2459f3684c2346c1f2bdbf30f0ae34cf2319f7ee25426bad9bcf47f204",
+    "published_sha256": "b4174c2459f3684c2346c1f2bdbf30f0ae34cf2319f7ee25426bad9bcf47f204"
+  },
+  {
+    "file": "Reproduction/Task_A/DumpWatch_Task_A_Colab.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "4b64d2e8905485e710ab4358e8a9f41206ab804cf8e4e7d0a13d6d4d26507445",
+    "published_sha256": "4b64d2e8905485e710ab4358e8a9f41206ab804cf8e4e7d0a13d6d4d26507445"
+  },
+  {
+    "file": "Reproduction/Task_B/dumpwatch_task_b_final_evaluation.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "c8923196891cfdd780ff454c424034243a6727151f7ce7697ac0e63531b5dc48",
+    "published_sha256": "c8923196891cfdd780ff454c424034243a6727151f7ce7697ac0e63531b5dc48"
+  },
+  {
+    "file": "Reproduction/Task_B/dumpwatch_task_b_final_evaluation_executed.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 1,
+    "original_sha256": "8878f408777f2622fc7e9408875f54c5cde7dc7bc714c44c68fd5f9393acaf2e",
+    "published_sha256": "d007d397ca489fa014d7a8a4e239dd014194231c29befa8d5dd4b387c33d66ca"
+  },
+  {
+    "file": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "5579f830d39e9fce6046bd9bcd35bd3404494803421a1f101bb430c24289ca87",
+    "published_sha256": "5579f830d39e9fce6046bd9bcd35bd3404494803421a1f101bb430c24289ca87"
+  },
+  {
+    "file": "Experiments/Task_B/01_Real_vs_V1/dumpwatch_task_b_exploratory_executed.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 1,
+    "original_sha256": "1b5e6e28199aa424aa16dee848898b816ac32b9c4bfb6594007a0fa8cde57198",
+    "published_sha256": "e2da440b9f216d953985e50abc148ff3e816cd8d8630df2b26df6115af47b336"
+  },
+  {
+    "file": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "733148bc6a7afa10d5307709f390edeb1a5ef58aa1a8a9f4352a206e5c06e925",
+    "published_sha256": "733148bc6a7afa10d5307709f390edeb1a5ef58aa1a8a9f4352a206e5c06e925"
+  },
+  {
+    "file": "Experiments/Task_B/02_Local_Comparison/dumpwatch_task_b_local_comparison_executed.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 1,
+    "original_sha256": "433c1867b022a6e5986a803044b71034a43afdb9ecf4c2145bad9304a87813cb",
+    "published_sha256": "e7bc09dca34179fd9c2905e40a5732c3b3208d30c3f1ff541718dbb6b514df55"
+  },
+  {
+    "file": "Additional_Evidence/Task_B_Model_Comparison/dumpwatch_task_b_comparison.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "249db2fcfcd4434786596c79a08b8e512b92905d949d3ed6dfd4a642aaa1245d",
+    "published_sha256": "249db2fcfcd4434786596c79a08b8e512b92905d949d3ed6dfd4a642aaa1245d"
+  },
+  {
+    "file": "Additional_Evidence/Task_B_Model_Comparison/dumpwatch_task_b_comparison_executed.ipynb",
+    "change": "Notebook serialization; rich media/attachments removed; machine-user paths redacted",
+    "removed_rich_outputs": 0,
+    "original_sha256": "710051c8743997f6d744b0e3b132a089bf05cc69adff37d59cda9761cb5db313",
+    "published_sha256": "710051c8743997f6d744b0e3b132a089bf05cc69adff37d59cda9761cb5db313"
+  },
+  {
+    "file": "Data/Manifests/Task_B/synthetic_v1_allowlist.json",
+    "change": "Private synthetic Drive access references redacted; relative paths, image/metadata hashes, labels and cases preserved",
+    "before_publication_sha256": "353b5b6ebc62894c6453bddc95e86d9cbb56bc9ef2e3f0a634582fc4e162efb2",
+    "published_sha256": "9df399e34545e366b53bfd6ce4a2d7d0dc6995e64ff63fa7927de30934eeba50"
+  },
+  {
+    "file": "Reproduction/Task_B/evidence/synthetic_v1/synthetic_v1_allowlist.json",
+    "change": "Private synthetic Drive access references redacted; relative paths, image/metadata hashes, labels and cases preserved",
+    "before_publication_sha256": "353b5b6ebc62894c6453bddc95e86d9cbb56bc9ef2e3f0a634582fc4e162efb2",
+    "published_sha256": "9df399e34545e366b53bfd6ce4a2d7d0dc6995e64ff63fa7927de30934eeba50"
+  },
+  {
+    "file": "project_setup.py",
+    "change": "Relative template fallback when private local configuration is absent",
+    "original_sha256": "e06c75f8f72b6f7704438c836cb65701738d4c5e1810afa83a1bf87a8d704c29",
+    "published_sha256": "7724ccfad81a0870bd53784977411605feb88519370f2e2162e501c55018b8de"
+  },
+  {
+    "file": "Demo/app.py",
+    "change": "Hide unavailable private example choices; keep upload controls usable",
+    "original_sha256": "1ba330906472ad863e15f47beed79feb40e273d4b5323713fc28a5dca1b60a7f",
+    "published_sha256": "ef82e4b34d4771504fea9176ded79bc77ca05ced23ebf701a8b026ff55e824e6"
+  },
+  {
+    "file": "Demo/launch.ps1",
+    "change": "Use documented installed dependencies rather than require bundled Windows vendor",
+    "original_sha256": "149fb6aacf7741ae150dce038a15d227daacdae48d29e606e892f0cd86839978",
+    "published_sha256": "e1ac309c7c2f0c2208649b1cff610727cec6d615219bdad2db0df14c2ae42efd"
+  },
+  {
+    "file": "Attribution/CODE_SOURCES.md",
+    "change": "Public attribution reflects excluded native vendor and collaborative contribution confirmation",
+    "original_sha256": "62f7c29432e719c0f8a325b55fdac0dfa02296b56ab504e70bd12c133d9d6092",
+    "published_sha256": "44a5429bb012bfbc907718b4071f51493fb9f1b241eb52498d57ed54c6c923f3"
+  }
+]

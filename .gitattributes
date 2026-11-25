@@ -1,0 +1,2 @@
+# Preserve exact frozen CSV/JSON/checkpoint bytes and their recorded SHA-256 values.
+* -text

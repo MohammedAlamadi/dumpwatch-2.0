@@ -1,0 +1,358 @@
+{
+  "model_sha256": "b6bc6391b3af0e7ea2999e0702876c1afa980f51f83470fcce4238b430f0b6b5",
+  "test_inventory_sha256": "c44ce60a76f51bbcb19873499b27ee3cb4a3adc96326b2455dc87d77edbae004",
+  "real_archive_sha256": "1e97cfe51b4ef7fc9e61aaa7cbd2cbce4ac5a24fd274f07503d7deb5138f0412",
+  "frozen_preparation_csv_sha256": "bdbb8bca0ce9d8daf398f2ac613090ac2a39be570d05f620733e5ff40c283469",
+  "frozen_notebook_preprocessing_sha256": "643a6534e60d5996c91da1ff5de0235450b08d7631db287011da745a71cdc30d",
+  "development_reference": {
+    "n": 8,
+    "forced_correct": 6,
+    "forced_false_clearance": [
+      1,
+      6
+    ],
+    "forced_false_alarm": [
+      1,
+      2
+    ],
+    "fixed_correct_accepted": 1,
+    "fixed_accepted": 1,
+    "fixed_abstentions": 7
+  },
+  "forced": {
+    "n": 9,
+    "row_order": [
+      "waste_still_present",
+      "fully_cleared"
+    ],
+    "column_order": [
+      "waste_still_present",
+      "fully_cleared",
+      "abstain"
+    ],
+    "confusion_matrix": [
+      [
+        5,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ]
+    ],
+    "accepted": 9,
+    "abstained": 0,
+    "coverage": 1.0,
+    "accepted_accuracy": 0.6666666666666666,
+    "correct_accepted": 6,
+    "per_class": {
+      "waste_still_present": {
+        "support": 6,
+        "accepted_support": 6,
+        "precision": 0.7142857142857143,
+        "recall_accepted": 0.8333333333333334,
+        "recall_all": 0.8333333333333334,
+        "f1_accepted": 0.7692307692307693,
+        "correct": 5
+      },
+      "fully_cleared": {
+        "support": 3,
+        "accepted_support": 3,
+        "precision": 0.5,
+        "recall_accepted": 0.3333333333333333,
+        "recall_all": 0.3333333333333333,
+        "f1_accepted": 0.4,
+        "correct": 1
+      }
+    },
+    "false_clearance_count": 1,
+    "false_clearance_denominator": 6,
+    "false_clearance_rate": 0.16666666666666666,
+    "false_alarm_count": 2,
+    "false_alarm_denominator": 3,
+    "false_alarm_rate": 0.6666666666666666
+  },
+  "fixed": {
+    "n": 9,
+    "row_order": [
+      "waste_still_present",
+      "fully_cleared"
+    ],
+    "column_order": [
+      "waste_still_present",
+      "fully_cleared",
+      "abstain"
+    ],
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "accepted": 4,
+    "abstained": 5,
+    "coverage": 0.4444444444444444,
+    "accepted_accuracy": 1.0,
+    "correct_accepted": 4,
+    "per_class": {
+      "waste_still_present": {
+        "support": 6,
+        "accepted_support": 3,
+        "precision": 1.0,
+        "recall_accepted": 1.0,
+        "recall_all": 0.5,
+        "f1_accepted": 1.0,
+        "correct": 3
+      },
+      "fully_cleared": {
+        "support": 3,
+        "accepted_support": 1,
+        "precision": 1.0,
+        "recall_accepted": 1.0,
+        "recall_all": 0.3333333333333333,
+        "f1_accepted": 1.0,
+        "correct": 1
+      }
+    },
+    "false_clearance_count": 0,
+    "false_clearance_denominator": 6,
+    "false_clearance_rate": 0.0,
+    "false_alarm_count": 0,
+    "false_alarm_denominator": 3,
+    "false_alarm_rate": 0.0
+  },
+  "per_location": {
+    "location_04": {
+      "forced": {
+        "n": 3,
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "accepted": 3,
+        "abstained": 0,
+        "coverage": 1.0,
+        "accepted_accuracy": 1.0,
+        "correct_accepted": 3,
+        "per_class": {
+          "waste_still_present": {
+            "support": 3,
+            "accepted_support": 3,
+            "precision": 1.0,
+            "recall_accepted": 1.0,
+            "recall_all": 1.0,
+            "f1_accepted": 1.0,
+            "correct": 3
+          },
+          "fully_cleared": {
+            "support": 0,
+            "accepted_support": 0,
+            "precision": null,
+            "recall_accepted": null,
+            "recall_all": null,
+            "f1_accepted": null,
+            "correct": 0
+          }
+        },
+        "false_clearance_count": 0,
+        "false_clearance_denominator": 3,
+        "false_clearance_rate": 0.0,
+        "false_alarm_count": 0,
+        "false_alarm_denominator": 0,
+        "false_alarm_rate": null
+      },
+      "fixed": {
+        "n": 3,
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "accepted": 2,
+        "abstained": 1,
+        "coverage": 0.6666666666666666,
+        "accepted_accuracy": 1.0,
+        "correct_accepted": 2,
+        "per_class": {
+          "waste_still_present": {
+            "support": 3,
+            "accepted_support": 2,
+            "precision": 1.0,
+            "recall_accepted": 1.0,
+            "recall_all": 0.6666666666666666,
+            "f1_accepted": 1.0,
+            "correct": 2
+          },
+          "fully_cleared": {
+            "support": 0,
+            "accepted_support": 0,
+            "precision": null,
+            "recall_accepted": null,
+            "recall_all": null,
+            "f1_accepted": null,
+            "correct": 0
+          }
+        },
+        "false_clearance_count": 0,
+        "false_clearance_denominator": 3,
+        "false_clearance_rate": 0.0,
+        "false_alarm_count": 0,
+        "false_alarm_denominator": 0,
+        "false_alarm_rate": null
+      }
+    },
+    "location_10": {
+      "forced": {
+        "n": 6,
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "accepted": 6,
+        "abstained": 0,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.5,
+        "correct_accepted": 3,
+        "per_class": {
+          "waste_still_present": {
+            "support": 3,
+            "accepted_support": 3,
+            "precision": 0.5,
+            "recall_accepted": 0.6666666666666666,
+            "recall_all": 0.6666666666666666,
+            "f1_accepted": 0.5714285714285714,
+            "correct": 2
+          },
+          "fully_cleared": {
+            "support": 3,
+            "accepted_support": 3,
+            "precision": 0.5,
+            "recall_accepted": 0.3333333333333333,
+            "recall_all": 0.3333333333333333,
+            "f1_accepted": 0.4,
+            "correct": 1
+          }
+        },
+        "false_clearance_count": 1,
+        "false_clearance_denominator": 3,
+        "false_clearance_rate": 0.3333333333333333,
+        "false_alarm_count": 2,
+        "false_alarm_denominator": 3,
+        "false_alarm_rate": 0.6666666666666666
+      },
+      "fixed": {
+        "n": 6,
+        "row_order": [
+          "waste_still_present",
+          "fully_cleared"
+        ],
+        "column_order": [
+          "waste_still_present",
+          "fully_cleared",
+          "abstain"
+        ],
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "accepted": 2,
+        "abstained": 4,
+        "coverage": 0.3333333333333333,
+        "accepted_accuracy": 1.0,
+        "correct_accepted": 2,
+        "per_class": {
+          "waste_still_present": {
+            "support": 3,
+            "accepted_support": 1,
+            "precision": 1.0,
+            "recall_accepted": 1.0,
+            "recall_all": 0.3333333333333333,
+            "f1_accepted": 1.0,
+            "correct": 1
+          },
+          "fully_cleared": {
+            "support": 3,
+            "accepted_support": 1,
+            "precision": 1.0,
+            "recall_accepted": 1.0,
+            "recall_all": 0.3333333333333333,
+            "f1_accepted": 1.0,
+            "correct": 1
+          }
+        },
+        "false_clearance_count": 0,
+        "false_clearance_denominator": 3,
+        "false_clearance_rate": 0.0,
+        "false_alarm_count": 0,
+        "false_alarm_denominator": 3,
+        "false_alarm_rate": 0.0
+      }
+    }
+  }
+}

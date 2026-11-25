@@ -1,0 +1,195 @@
+{
+  "majority": {
+    "n": 100,
+    "accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "classes": {
+      "no_dumping": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 50.0
+      },
+      "dumping": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 50.0
+      },
+      "accuracy": 0.5,
+      "macro avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.33333333333333326,
+        "support": 100.0
+      }
+    },
+    "matrix": [
+      [
+        0,
+        50
+      ],
+      [
+        0,
+        50
+      ]
+    ],
+    "matrix_labels": [
+      "no_dumping",
+      "dumping"
+    ],
+    "event_window_s": [
+      -5,
+      10
+    ],
+    "event_tp": 38,
+    "event_fp": 62,
+    "event_fn": 12,
+    "event_precision": 0.38,
+    "event_recall": 0.76,
+    "event_f1": 0.5066666666666667,
+    "timing_eligible": 50,
+    "timing_reported": 50,
+    "onset_mae_s": 5.405,
+    "onset_median_ae_s": 3.75,
+    "signed_mean_error_s": -2.315,
+    "excluded_timing_ids": []
+  },
+  "motion_svm": {
+    "n": 100,
+    "accuracy": 0.62,
+    "macro_f1": 0.5967741935483871,
+    "classes": {
+      "no_dumping": {
+        "precision": 0.7307692307692307,
+        "recall": 0.38,
+        "f1-score": 0.5,
+        "support": 50.0
+      },
+      "dumping": {
+        "precision": 0.581081081081081,
+        "recall": 0.86,
+        "f1-score": 0.6935483870967742,
+        "support": 50.0
+      },
+      "accuracy": 0.62,
+      "macro avg": {
+        "precision": 0.6559251559251559,
+        "recall": 0.62,
+        "f1-score": 0.5967741935483871,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.6559251559251558,
+        "recall": 0.62,
+        "f1-score": 0.5967741935483871,
+        "support": 100.0
+      }
+    },
+    "matrix": [
+      [
+        19,
+        31
+      ],
+      [
+        7,
+        43
+      ]
+    ],
+    "matrix_labels": [
+      "no_dumping",
+      "dumping"
+    ],
+    "event_window_s": [
+      -5,
+      10
+    ],
+    "event_tp": 27,
+    "event_fp": 47,
+    "event_fn": 23,
+    "event_precision": 0.36486486486486486,
+    "event_recall": 0.54,
+    "event_f1": 0.43548387096774194,
+    "timing_eligible": 50,
+    "timing_reported": 43,
+    "onset_mae_s": 6.308139534883721,
+    "onset_median_ae_s": 4.25,
+    "signed_mean_error_s": -5.0523255813953485,
+    "excluded_timing_ids": []
+  },
+  "resnet18_gru": {
+    "n": 100,
+    "accuracy": 0.75,
+    "macro_f1": 0.7497747973175859,
+    "classes": {
+      "no_dumping": {
+        "precision": 0.7358490566037735,
+        "recall": 0.78,
+        "f1-score": 0.7572815533980582,
+        "support": 50.0
+      },
+      "dumping": {
+        "precision": 0.7659574468085106,
+        "recall": 0.72,
+        "f1-score": 0.7422680412371134,
+        "support": 50.0
+      },
+      "accuracy": 0.75,
+      "macro avg": {
+        "precision": 0.750903251706142,
+        "recall": 0.75,
+        "f1-score": 0.7497747973175859,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.7509032517061422,
+        "recall": 0.75,
+        "f1-score": 0.7497747973175859,
+        "support": 100.0
+      }
+    },
+    "matrix": [
+      [
+        39,
+        11
+      ],
+      [
+        14,
+        36
+      ]
+    ],
+    "matrix_labels": [
+      "no_dumping",
+      "dumping"
+    ],
+    "event_window_s": [
+      -5,
+      10
+    ],
+    "event_tp": 29,
+    "event_fp": 18,
+    "event_fn": 21,
+    "event_precision": 0.6170212765957447,
+    "event_recall": 0.58,
+    "event_f1": 0.5979381443298969,
+    "timing_eligible": 50,
+    "timing_reported": 36,
+    "onset_mae_s": 5.347222222222222,
+    "onset_median_ae_s": 3.75,
+    "signed_mean_error_s": 4.013888888888889,
+    "excluded_timing_ids": []
+  },
+  "median_onset_oracle_positive_only": {
+    "timing_eligible": 50,
+    "timing_reported": 50,
+    "onset_mae_s": 5.405,
+    "onset_median_ae_s": 3.75,
+    "signed_mean_error_s": -2.315
+  }
+}
